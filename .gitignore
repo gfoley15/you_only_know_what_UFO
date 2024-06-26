@@ -1,3 +1,6 @@
+.DS_Store
+.ipynb_checkpoints
+
 #api_keys
 api_keys.py
 
