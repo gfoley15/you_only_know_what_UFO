@@ -1,0 +1,1682 @@
+[
+    {
+        "name": "Altus Air Force Base",
+        "location": "Altus",
+        "state_or_area": "Oklahoma",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "97th Air Mobility Wing",
+        "primary_missions_and_units": "The97th Air Mobility Wingtrains crews to operate theC-17A Globemaster III,KC-135R StratotankerandKC-46A Pegasus.[4]",
+        "latitude": "34.66639",
+        "longitude": "-99.26806"
+    },
+    {
+        "name": "Joint Base Anacostia-Bolling",
+        "location": "Southwest",
+        "state_or_area": "Washington, D.C.",
+        "commanding_organization": "Air Force District of Washington",
+        "host_wing_or_primary_unit": "11th Wing",
+        "primary_missions_and_units": "USAF operatedjoint base. The11th Wingprovides base administration and support to tenants including theUSAF Honor GuardandUSAF Band, which support ceremonial operations in theNational Capital Region.[5]",
+        "latitude": "38.84278",
+        "longitude": "-77.01611"
+    },
+    {
+        "name": "Joint Base Andrews-Naval Air Facility Washington",
+        "location": "Camp Springs",
+        "state_or_area": "Maryland",
+        "commanding_organization": "Air Force District of Washington",
+        "host_wing_or_primary_unit": "316th Wing",
+        "primary_missions_and_units": "USAF operatedjoint base. The316th Wingprovides administrative and operational support in theNational Capital Regionand operates theUH-1N Iroquois. The89th Airlift Wingis assigned a variety of aircraft including twoVC-25A(Air Force One) in theSpecial Air Missionrole, providing support to US political and military leaders. Other USAF flying units include the459th Air Refueling Wing(KC-135R Stratotanker) and theD.C. Air National Guard's113th Wing(F-16C/D Fighting Falcon,C-38A CourierandC-40C).[6]",
+        "latitude": "38.81083",
+        "longitude": "-76.86694"
+    },
+    {
+        "name": "Arnold Air Force Base",
+        "location": "Tullahoma",
+        "state_or_area": "Tennessee",
+        "commanding_organization": "Air Force Materiel Command",
+        "host_wing_or_primary_unit": "Arnold Engineering Development Complex",
+        "primary_missions_and_units": "Non-flying installation, part of theAir Force Test Center. It operates more than 68 aerodynamic and propulsionwind tunnels, rocket and turbine engine test cells, spaceenvironmental chambers, arc heaters, and ballistic ranges.[7]",
+        "latitude": "35.39250",
+        "longitude": "-86.08583"
+    },
+    {
+        "name": "Barksdale Air Force Base",
+        "location": "Bossier City",
+        "state_or_area": "Louisiana",
+        "commanding_organization": "Air Force Global Strike Command",
+        "host_wing_or_primary_unit": "2nd Bomb Wing",
+        "primary_missions_and_units": "The2nd Bomb Wingand307th Bomb Wingoperate theB-52H Stratofortress. Also home to the headquarters ofAir Force Global Strike Commandand theEighth Air Force.[8]",
+        "latitude": "32.50194",
+        "longitude": "-93.66278"
+    },
+    {
+        "name": "Beale Air Force Base",
+        "location": "Marysville",
+        "state_or_area": "California",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "9th Reconnaissance Wing",
+        "primary_missions_and_units": "The USAF's high-altitudeIntelligence, Surveillance and Reconnaissancehub, operating theU-2S Dragon Lady,RQ-180,RQ-4B Global HawkandT-38A Talon. The940th Air Refueling Wingoperates theKC-135R Stratotanker.[9]",
+        "latitude": "39.13611",
+        "longitude": "-121.43639"
+    },
+    {
+        "name": "Cannon Air Force Base",
+        "location": "Clovis",
+        "state_or_area": "New Mexico",
+        "commanding_organization": "Air Force Special Operations Command",
+        "host_wing_or_primary_unit": "27th Special Operations Wing",
+        "primary_missions_and_units": "One of four active duty special operations wings, operating theAC-130J Ghostrider,CV-22B Osprey,MQ-9A Reaper,MC-130J Commando IIandU-28A.[10]",
+        "latitude": "34.38278",
+        "longitude": "-103.32222"
+    },
+    {
+        "name": "Joint Base Charleston",
+        "location": "Charleston",
+        "state_or_area": "South Carolina",
+        "commanding_organization": "Air Mobility Command",
+        "host_wing_or_primary_unit": "628th Air Base Wing",
+        "primary_missions_and_units": "USAF operatedjoint base. The437th Airlift Wingand315th Airlift Wingoperate theC-17A Globemaster III.",
+        "latitude": "32.89861",
+        "longitude": "-80.04056"
+    },
+    {
+        "name": "Columbus Air Force Base",
+        "location": "Columbus",
+        "state_or_area": "Mississippi",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "14th Flying Training Wing",
+        "primary_missions_and_units": "Provides specialized undergraduate pilot training in theT-1A Jayhawk,T-6A Texan IIandT-38C Talon[11]",
+        "latitude": "33.64389",
+        "longitude": "-88.44389"
+    },
+    {
+        "name": "Creech Air Force Base",
+        "location": "Indian Springs",
+        "state_or_area": "Nevada",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "432nd Wing",
+        "primary_missions_and_units": "The USAF's primaryremotely piloted aircraft system(drone) base. The432nd Wingis supported by theAir Force Reserve's926th Wingand theNevada Air National Guard's232nd Operations Squadron, all operating theMQ-9A Reaper.[12]",
+        "latitude": "36.58722",
+        "longitude": "-115.67333"
+    },
+    {
+        "name": "Davis\u2013Monthan Air Force Base",
+        "location": "Tucson",
+        "state_or_area": "Arizona",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "355th Fighter Wing",
+        "primary_missions_and_units": "The355th Fighter Wingoperates theA-10C Thunderbolt II(both for training and operationally), theHH-60G Pave HawkandHC-130J Combat King II. Other flying units include the55th Electronic Combat Group(EC-130H Compass Call),920th Rescue Wing(HH-60G),924th Fighter Group(A-10C) and theArizona Air National Guard's214th Attack Group(MQ-9A Reaper).[13]The base is known for its aircraft storage facility, operated by the309th Aerospace Maintenance and Regeneration Groupand is also the headquarters of theTwelfth Air Force (Air Forces Southern).[14]",
+        "latitude": "32.16639",
+        "longitude": "-110.88306"
+    },
+    {
+        "name": "Dover Air Force Base",
+        "location": "Dover",
+        "state_or_area": "Delaware",
+        "commanding_organization": "Air Mobility Command",
+        "host_wing_or_primary_unit": "436th Airlift Wing",
+        "primary_missions_and_units": "The436th Airlift Wingand512th Airlift Wingoperate theC-17A Globemaster IIIandC-5M Super Galaxyin the tactical and strategic airlift role. The base also hosts theCharles C. Carson Center for Mortuary Affairs.[15]",
+        "latitude": "39.12833",
+        "longitude": "-75.46472"
+    },
+    {
+        "name": "Dyess Air Force Base",
+        "location": "Abilene",
+        "state_or_area": "Texas",
+        "commanding_organization": "Air Force Global Strike Command",
+        "host_wing_or_primary_unit": "7th Bomb Wing",
+        "primary_missions_and_units": "TheB-1B Lancerstrategic bomber is operated by the7th Bomb Wingand307th Bomb Wing. Dyess is also home to the317th Airlift Wingflying theC-130J Super Hercules.[16]",
+        "latitude": "32.42083",
+        "longitude": "-99.85472"
+    },
+    {
+        "name": "Edwards Air Force Base",
+        "location": "Edwards",
+        "state_or_area": "California",
+        "commanding_organization": "Air Force Materiel Command",
+        "host_wing_or_primary_unit": "412th Test Wing",
+        "primary_missions_and_units": "The USAF's primary test and evaluation base and home of theAir Force Test Center. A wide range of aircraft are operated by the412th Test Wing,Air Force Test Pilot School,31st Test and Evaluation SquadronandAir Force Operational Test and Evaluation Center. Edwards also hostsNASA'sArmstrong Flight Research Center.[17]",
+        "latitude": "34.90556",
+        "longitude": "-117.88361"
+    },
+    {
+        "name": "Eglin Air Force Base",
+        "location": "Valparaiso",
+        "state_or_area": "Florida",
+        "commanding_organization": "Air Force Materiel Command",
+        "host_wing_or_primary_unit": "96th Test Wing",
+        "primary_missions_and_units": "The USAF's test and evaluation center for air-delivered weapons, navigation and guidance systems,command and controlsystems, and Air Force Special Operations Command systems (96th Test Wing) as well aselectronic warfare, armament andavionics,chemicaldefense,reconnaissance, and aircrew training devices (53rd Wing). Both wings operates theA-10C Thunderbolt II,F-15C/D/E EagleandF-16C/D Fighting Falcon. The33rd Fighter WingtrainsF-35A Lightning IIpilots from US and foreign air-arms.[18]",
+        "latitude": "30.483",
+        "longitude": "-86.533"
+    },
+    {
+        "name": "Ellsworth Air Force Base",
+        "location": "Box Elder",
+        "state_or_area": "South Dakota",
+        "commanding_organization": "Air Force Global Strike Command",
+        "host_wing_or_primary_unit": "28th Bomb Wing",
+        "primary_missions_and_units": "TheB-1B Lancerstrategic bomber is operated by the 28th Bomb Wing. Ellsworth also hosts the89th Attack Squadronwhich flies theMQ-9A Reaper.[19]",
+        "latitude": "44.14500",
+        "longitude": "-103.10361"
+    },
+    {
+        "name": "Francis E. Warren Air Force Base",
+        "location": "Cheyenne",
+        "state_or_area": "Wyoming",
+        "commanding_organization": "Air Force Global Strike Command",
+        "host_wing_or_primary_unit": "90th Missile Wing",
+        "primary_missions_and_units": "LGM-30G Minuteman IIIbase with launch facilities throughout south-east Wyoming, western Nebraska, and northern Colorado, supported by the wing'sUH-1N Iroquoishelicopters.  It hosts the headquarters of theTwentieth Air Force, which is responsible for the USAF'sIntercontinental Ballistic Missiles(ICBMs).[20]",
+        "latitude": "41.13306",
+        "longitude": "-104.86694"
+    },
+    {
+        "name": "Fairchild Air Force Base",
+        "location": "Spokane",
+        "state_or_area": "Washington",
+        "commanding_organization": "Air Mobility Command",
+        "host_wing_or_primary_unit": "92nd Air Refueling Wing",
+        "primary_missions_and_units": "The92nd Air Refueling Wingand the141st Air Refueling Wingof theWashington Air National Guardoperate theKC-135R Stratotanker. Also hosts theUSAF Survival, Evasion, Resistance and Escape (SERE) School, which is supported byUH-1N Iroquoisoperated by the36th Rescue Squadron.[21]",
+        "latitude": "47.61500",
+        "longitude": "-117.65556"
+    },
+    {
+        "name": "Fort George G. Meade",
+        "location": "Odenton",
+        "state_or_area": "Maryland",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "70th Intelligence, Surveillance and Reconnaissance Wing",
+        "primary_missions_and_units": "US Army installation hosting USAF intelligence units carrying outsignals intelligenceandcryptologicoperations.[22]",
+        "latitude": "39.10694",
+        "longitude": "-76.74306"
+    },
+    {
+        "name": "Gila Bend Air Force Auxiliary Field",
+        "location": "Gila Bend",
+        "state_or_area": "Arizona",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "56th Range Management Office",
+        "primary_missions_and_units": "Geographically Separate Unit of the56th Fighter WingatLuke AFB, located within theBarry M. Goldwater Air Force Range.[23]",
+        "latitude": "32.88750",
+        "longitude": "-112.72000"
+    },
+    {
+        "name": "Goodfellow Air Force Base",
+        "location": "San Angelo",
+        "state_or_area": "Texas",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "17th Training Wing",
+        "primary_missions_and_units": "Non-flying installation deliveringcryptologic,intelligence, and other training to US and allied military and US government students.[24]",
+        "latitude": "31.42944",
+        "longitude": "-100.39889"
+    },
+    {
+        "name": "Grand Forks Air Force Base",
+        "location": "Grand Forks",
+        "state_or_area": "North Dakota",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "319th Reconnaissance Wing",
+        "primary_missions_and_units": "The319th Reconnaissance Wingoperates theRQ-4B Global Hawkin the high-altitudeintelligence, surveillance and reconnaissancerole.[25]",
+        "latitude": "47.96111",
+        "longitude": "-97.40111"
+    },
+    {
+        "name": "Hanscom Air Force Base",
+        "location": "Lincoln",
+        "state_or_area": "Massachusetts",
+        "commanding_organization": "Air Force Materiel Command",
+        "host_wing_or_primary_unit": "66th Air Base Group",
+        "primary_missions_and_units": "Non-flying installation, hosting theElectronic Systems Center, part of theAir Force Life Cycle Management Center.[26]",
+        "latitude": "42.47000",
+        "longitude": "-71.28917"
+    },
+    {
+        "name": "Hill Air Force Base",
+        "location": "Ogden",
+        "state_or_area": "Utah",
+        "commanding_organization": "Air Force Materiel Command",
+        "host_wing_or_primary_unit": "75th Air Base Wing",
+        "primary_missions_and_units": "The USAF's second largest base, home to theOgden Air Logistics Complex, the 748th Supply Chain Management Group and several directorates of theAir Force Life Cycle Management CenterandAir Force Nuclear Weapons Center. The388th Fighter Wingand419th Fighter Wingoperate theF-35A Lightning II.[27]",
+        "latitude": "41.12389",
+        "longitude": "-111.97278"
+    },
+    {
+        "name": "Homey Airport",
+        "location": "Groom Lake",
+        "state_or_area": "Nevada",
+        "commanding_organization": "Air Force Materiel Command",
+        "host_wing_or_primary_unit": "Air Force Test Center(Detachment 3)",
+        "primary_missions_and_units": "Classified test facility popularly known as Area 51, located within theNevada Test and Training Range.[28]",
+        "latitude": "37.23333",
+        "longitude": "-115.80833"
+    },
+    {
+        "name": "Holloman Air Force Base",
+        "location": "Alamogordo",
+        "state_or_area": "New Mexico",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "49th Wing",
+        "primary_missions_and_units": "The49th Wingtrains crews to operate theMQ-9A ReaperandF-16C/D Fighting Falcon. Also home to the704th Test Groupwhich performs high speed sled track testing, navigation and guidance system testing, radar signature measurements and weapon systems flight testing. The group also operates theC-12J HuronandT-38C Talon.[29]",
+        "latitude": "32.85250",
+        "longitude": "-106.10639"
+    },
+    {
+        "name": "Hurlburt Field",
+        "location": "Mary Esther",
+        "state_or_area": "Florida",
+        "commanding_organization": "Air Force Special Operations Command",
+        "host_wing_or_primary_unit": "1st Special Operations Wing",
+        "primary_missions_and_units": "Home to the1st Special Operations Wing,24th Special Operations Wing,492nd Special Operations Wing, HeadquartersAir Force Special Operations Commandand several special forces training and test & evaluation units. Aircraft flown includes theAC-130J Ghostrider,CV-22B Osprey,MC-130J Commando II,MQ-9A ReaperandU-28A Draco.505th Command and Control Wingprovides training and testing forcommand and controlsystems.",
+        "latitude": "30.42778",
+        "longitude": "-86.68944"
+    },
+    {
+        "name": "Keesler Air Force Base",
+        "location": "Biloxi",
+        "state_or_area": "Mississippi",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "81st Training Wing",
+        "primary_missions_and_units": "The81st Training Wingprovides a wide range of non-flying technical training. Also home to the403rd Wingoperating theWC-130J Super Hercules&C-130J Super Herculesand the Headquarters of theSecond Air Force.[30]",
+        "latitude": "30.41139",
+        "longitude": "-88.92361"
+    },
+    {
+        "name": "Kegelman Air Force Auxiliary Field",
+        "location": "Cherokee",
+        "state_or_area": "Oklahoma",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "71st Flying Training Wing",
+        "primary_missions_and_units": "Airfield used for training byT-1A Jayhawk,T-6A Texan IIandT-38C Talonaircraft of the71st Flying Training WingatVance AFB.[31]",
+        "latitude": "36.73806",
+        "longitude": "-98.12611"
+    },
+    {
+        "name": "Kirtland Air Force Base",
+        "location": "Albuquerque",
+        "state_or_area": "New Mexico",
+        "commanding_organization": "Air Force Materiel Command",
+        "host_wing_or_primary_unit": "377th Air Base Wing",
+        "primary_missions_and_units": "Center for research, development and testing of non-conventional weapons, space and missile technology and laser warfare. Home to theAir Force Nuclear Weapons Center,Air Force Safety CenterandAir Force Operational Test and Evaluation Center. The58th Special Operations Wingand theNew Mexico Air National Guard's150th Special Operations Wingtrain special operations crews to operate theCV-22B Osprey,HC-130J Combat King II,MC-130J Commando II,HH-60G Pave HawkandUH-1N Iroquois.[32]",
+        "latitude": "35.04028",
+        "longitude": "-106.60917"
+    },
+    {
+        "name": "Joint Base Langley\u2013Eustis",
+        "location": "Hampton",
+        "state_or_area": "Virginia",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "633rd Air Base Wing",
+        "primary_missions_and_units": "USAF operatedjoint base. Home to the1st Fighter Wingand theVirginia Air National Guard's192d Fighter Wing, both flying theF-22A Raptor. The base also hosts the headquarters ofAir Combat Command, the363rd Intelligence, Surveillance, and Reconnaissance (ISR) Wingand the480th ISR Wing.[33]",
+        "latitude": "37.08278",
+        "longitude": "-76.36056"
+    },
+    {
+        "name": "Laughlin Air Force Base",
+        "location": "Del Rio",
+        "state_or_area": "Texas",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "47th Flying Training Wing",
+        "primary_missions_and_units": "Operates theT-1A Jayhawk,T-38C TalonandT-6A Texan IIin the pilot training role.[34]",
+        "latitude": "29.35944",
+        "longitude": "-100.77806"
+    },
+    {
+        "name": "Joint Base Lewis-McChord",
+        "location": "Tacoma",
+        "state_or_area": "Washington",
+        "commanding_organization": "Air Mobility Command",
+        "host_wing_or_primary_unit": "627th Air Base Group",
+        "primary_missions_and_units": "US Armyoperatedjoint base. The62nd Airlift Wingand446th Airlift Wingoperate theC-17A Globemaster III. TheWashington Air National Guardoperates theWestern Air Defense Sector.[35]",
+        "latitude": "47.14750",
+        "longitude": "-122.47944"
+    },
+    {
+        "name": "Little Rock Air Force Base",
+        "location": "Jacksonville",
+        "state_or_area": "Arkansas",
+        "commanding_organization": "Air Mobility Command",
+        "host_wing_or_primary_unit": "19th Airlift Wing",
+        "primary_missions_and_units": "The189th Airlift Wingand theArkansas Air National Guard's314th Airlift Wingdeliver training toC-130 Herculesaircrews from across the US military and allied nations, whereas the19th Airlift Wingand913th Airlift Groupfly the Hercules operationally.[36]",
+        "latitude": "34.91694",
+        "longitude": "-92.14639"
+    },
+    {
+        "name": "Luke Air Force Base",
+        "location": "Glendale",
+        "state_or_area": "Arizona",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "56th Fighter Wing",
+        "primary_missions_and_units": "The56th Fighter Wing(the largest fighter wing in the USAF) and the944th Fighter Wingtrain pilots to operate theF-16 Fighting FalconandF-35A Lightning II.[37]",
+        "latitude": "33.53500",
+        "longitude": "-112.38306"
+    },
+    {
+        "name": "MacDill Air Force Base",
+        "location": "Tampa",
+        "state_or_area": "Florida",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "6th Air Refueling Wing",
+        "primary_missions_and_units": "Home to the6th Air Refueling Wingand927th Air Refueling Wingoperating theKC-135R Stratotanker. Also home to the headquarters ofUS Central CommandandUS Special Operations Command.[38]",
+        "latitude": "27.84944",
+        "longitude": "-82.52111"
+    },
+    {
+        "name": "Malmstrom Air Force Base",
+        "location": "Great Falls",
+        "state_or_area": "Montana",
+        "commanding_organization": "Air Force Global Strike Command",
+        "host_wing_or_primary_unit": "341st Missile Wing",
+        "primary_missions_and_units": "LGM-30G Minuteman IIIbase with launch facilities throughout central Montana, supported by the582nd Helicopter Group'sUH-1N Iroquoishelicopters.[39]",
+        "latitude": "47.50472",
+        "longitude": "-111.18722"
+    },
+    {
+        "name": "Maxwell Air Force Base",
+        "location": "Montgomery",
+        "state_or_area": "Alabama",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "42nd Air Base Wing",
+        "primary_missions_and_units": "Headquarters ofAir University. The908th Airlift Wing(AFRES)is transitioning from the C-130H Hercules to the MH-139 Grey Wolf Helicopter.",
+        "latitude": "32.37917",
+        "longitude": "-86.36250"
+    },
+    {
+        "name": "McConnell Air Force Base",
+        "location": "Wichita",
+        "state_or_area": "Kansas",
+        "commanding_organization": "Air Mobility Command",
+        "host_wing_or_primary_unit": "22d Air Refueling Wing",
+        "primary_missions_and_units": "The22nd Air Refueling Wingand931st Air Refueling Wingoperate theKC-135R/T Stratotanker. TheKansas Air National Guard's184th Wingperforms a variety of roles includingintelligence, surveillance and reconnaissanceandcyber warfare.[40]",
+        "latitude": "37.62306",
+        "longitude": "-97.26722"
+    },
+    {
+        "name": "Joint Base McGuire\u2013Dix\u2013Lakehurst",
+        "location": "Trenton",
+        "state_or_area": "New Jersey",
+        "commanding_organization": "Air Mobility Command",
+        "host_wing_or_primary_unit": "87th Air Base Wing",
+        "primary_missions_and_units": "USAF operatedjoint base. The305th Air Mobility Wingand514th Air Mobility Wingoperate theC-17A Globemaster IIIandKC-10A Extender.Also home to theNew Jersey Air National Guard's108th Wingoperating theKC-135R Stratotanker. The621st Contingency Response Wingis part of theUSAF Expeditionary Centerwhich is also based there.",
+        "latitude": "40.01917",
+        "longitude": "-74.52278"
+    },
+    {
+        "name": "Minot Air Force Base",
+        "location": "Minot",
+        "state_or_area": "North Dakota",
+        "commanding_organization": "Air Force Global Strike Command",
+        "host_wing_or_primary_unit": "5th Bomb Wing",
+        "primary_missions_and_units": "The5th Bomb Wingoperate theB-52H Stratofortress. The91st Missile WingmanLGM-30G Minuteman IIIlaunch facilities throughout North Dakota, supported by the582nd Helicopter Group'sUH-1N Iroquoishelicopters[41]",
+        "latitude": "48.41583",
+        "longitude": "-101.35806"
+    },
+    {
+        "name": "Moody Air Force Base",
+        "location": "Valdosta",
+        "state_or_area": "Georgia",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "23rd Wing",
+        "primary_missions_and_units": "The23rd Wingoperates theA-10C Thunderbolt II,HC-130J Combat King IIandHH-60G Pave Hawkin theclose air supportandcombat search and rescueroles. Other units include The476th Fighter Groupalso operates the A-10A and the93rd Air Ground Operations Wingprovidesforce protectioncapability.[42]",
+        "latitude": "30.96778",
+        "longitude": "-83.19278"
+    },
+    {
+        "name": "Mountain Home Air Force Base",
+        "location": "Mountain Home",
+        "state_or_area": "Idaho",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "366th Fighter Wing",
+        "primary_missions_and_units": "The366th Fighter Wingoperates theF-15E Strike Eagle.[43]",
+        "latitude": "43.04361",
+        "longitude": "-115.87250"
+    },
+    {
+        "name": "Nellis Air Force Base",
+        "location": "Las Vegas",
+        "state_or_area": "Nevada",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "99th Air Base Wing",
+        "primary_missions_and_units": "Home of theUSAF Warfare Center, the air force's advanced air combat training center, comprising the53rd Test and Evaluation Group, the57th WingandUS Air Force Weapons School. The563rd Rescue Group,926th Wingand theUSAF Air Demonstration Squadron(Thunderbirds) are also based at Nellis.[44]",
+        "latitude": "36.23611",
+        "longitude": "-115.03417"
+    },
+    {
+        "name": "North Auxiliary Airfield",
+        "location": "North",
+        "state_or_area": "South Carolina",
+        "commanding_organization": "Air Mobility Command",
+        "host_wing_or_primary_unit": "628th Civil Engineer Squadron",
+        "primary_missions_and_units": "Geographically Separate Unit of the628th Air Base WingatJoint Base Charleston, utilised for training byC-17A Globemaster IIIaircraft of the437thand315th Airlift Wings.[45]",
+        "latitude": "33.61694",
+        "longitude": "-81.08306"
+    },
+    {
+        "name": "Offutt Air Force Base",
+        "location": "Bellevue",
+        "state_or_area": "Nebraska",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "55th Wing",
+        "primary_missions_and_units": "The55th WingandNebraska Air National Guard's170th Groupoperate a range ofOC-135,RC-135andWC-135aircraft in the intelligence gathering, reconnaissance and surveillance roles. Offut is also home to the557th Weather Wingand595th Command and Control Groupoperating theE-4B Advanced Airborne Command Postand the headquarters ofUS Strategic Command.[46]",
+        "latitude": "41.11944",
+        "longitude": "-95.90861"
+    },
+    {
+        "name": "Patrick Space Force Base",
+        "location": "Brevard County",
+        "state_or_area": "Florida",
+        "commanding_organization": "Various",
+        "host_wing_or_primary_unit": "N/A",
+        "primary_missions_and_units": "US Space Force installation hosting theAir Force Technical Applications Center.[47]Also home to theAir Force Reserve Commands920th Rescue Wingwhich operates theHC-130N Combat KingandHH-60G Pave Hawk, as well as theFlorida Air National Guard's114th Space Control Squadron.[48]",
+        "latitude": "28.23500",
+        "longitude": "-80.61000"
+    },
+    {
+        "name": "Naval Air Station Pensacola",
+        "location": "Pensacola",
+        "state_or_area": "Florida",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "479th Flying Training Group",
+        "primary_missions_and_units": "US Navy operated installation hosting the USAF's479th Flying Training Group(part of the12th Flying Training Wing) which operates theT-1A JayhawkandT-6A Texan II.[49]",
+        "latitude": "30.35250",
+        "longitude": "-87.31778"
+    },
+    {
+        "name": "Peterson Space Force Base",
+        "location": "Colorado Springs",
+        "state_or_area": "Colorado",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "561st Network Operations Squadron",
+        "primary_missions_and_units": "US Space Force installation hosting a Geographically Separate Unit of the690th Cyberspace Operations Group.[50]",
+        "latitude": "38.82361",
+        "longitude": "-104.69500"
+    },
+    {
+        "name": "Pope Field",
+        "location": "Fayetteville",
+        "state_or_area": "North Carolina",
+        "commanding_organization": "Air Mobility Command",
+        "host_wing_or_primary_unit": "43rd Air Mobility Operations Group",
+        "primary_missions_and_units": "US Armyinstallation (part ofFort Liberty) hosting the USAF's43rd Air Mobility Operations Group,18th Air Support Operations Groupand several units ofAir Force Special Operations Command.[51]",
+        "latitude": "35.17083",
+        "longitude": "-79.01444"
+    },
+    {
+        "name": "Robins Air Force Base",
+        "location": "Warner Robins",
+        "state_or_area": "Georgia",
+        "commanding_organization": "Air Force Materiel Command",
+        "host_wing_or_primary_unit": "78th Air Base Wing",
+        "primary_missions_and_units": "TheWarner Robins Air Logistics Complexis the primary logistics support depot for theF-15 Eagle,C-130 Hercules,C-5M GalaxyandC-17A Globemaster III. Robins is also home to various directorates of theAir Force Life Cycle Management Center, the headquarters of Air Force Reserve Command and the461st Air Control Wing&116th Air Control Wing(Georgia Air National Guard) both operating theE-8C JSTARS.[52]",
+        "latitude": "32.64000",
+        "longitude": "-83.59167"
+    },
+    {
+        "name": "Rome Research Site",
+        "location": "Rome",
+        "state_or_area": "New York",
+        "commanding_organization": "Air Force Materiel Command",
+        "host_wing_or_primary_unit": "AFRL Information Directorate",
+        "primary_missions_and_units": "Non-flying installation, home to the Information Directorate ofAir Force Research Laboratory(AFRL).[53]",
+        "latitude": "43.221361",
+        "longitude": "-75.408556"
+    },
+    {
+        "name": "Joint Base San Antonio",
+        "location": "San Antonio",
+        "state_or_area": "Texas",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "502nd Air Base Wing",
+        "primary_missions_and_units": "USAF operatedjoint baseacross several sites.JBSA-Randolphis home to the12th Flying Training Wingand provides s undergraduate pilot training, flying theT-6A Texan II,T-1A JayhawkandT-38C Talon.JBSA-Lacklandis a non-flying facility that provides basic and technical training andKelly Field Annexis home to the149th Fighter Wing(F-16C/D Fighting Falcon)433rd Airlift Wing(C-5M Galaxy).[54]",
+        "latitude": "29.44889",
+        "longitude": "-98.44889"
+    },
+    {
+        "name": "Scott Air Force Base",
+        "location": "Belleville",
+        "state_or_area": "Illinois",
+        "commanding_organization": "Air Mobility Command",
+        "host_wing_or_primary_unit": "375th Air Mobility Wing",
+        "primary_missions_and_units": "The375th Air Mobility Wingoperates theC-21A Learjet,C-40C ClipperandKC-135R Stratotanker. TheIllinois Air National Guard's126th Air Refueling Wingalso operates the KC-135R and the932nd Airlift Wingthe C-40C. Also home to the headquarters ofAir Mobility Commandand theEighteenth Air Force.[55]",
+        "latitude": "38.54528",
+        "longitude": "-89.83528"
+    },
+    {
+        "name": "Seymour Johnson Air Force Base",
+        "location": "Goldsboro",
+        "state_or_area": "North Carolina",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "4th Fighter Wing",
+        "primary_missions_and_units": "The4th Fighter Wingand414th Fighter Groupoperate theF-15E Strike Eagleand the916th Air Refueling WingtheKC-135R Stratotanker.[56]",
+        "latitude": "35.33944",
+        "longitude": "-77.96056"
+    },
+    {
+        "name": "Shaw Air Force Base",
+        "location": "Sumter",
+        "state_or_area": "South Carolina",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "20th Fighter Wing",
+        "primary_missions_and_units": "The20th Fighter Wingoperates theF-16C/D Fighting Falconand the25th Attack GrouptheMQ-9A Reaper. Also home to the headquarters of theNinth Air Force.[57]",
+        "latitude": "33.97306",
+        "longitude": "-80.47278"
+    },
+    {
+        "name": "Sheppard Air Force Base",
+        "location": "Wichita Falls",
+        "state_or_area": "Texas",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "82nd Training Wing",
+        "primary_missions_and_units": "The82nd Training Wingprovides ground technical training, whilst the80th Flying Training Wingand340th Flying Training Groupprovide flying training and operate theT-6A Texan IIandT-38C Talon.[58]",
+        "latitude": "33.98889",
+        "longitude": "-98.49194"
+    },
+    {
+        "name": "Tinker Air Force Base",
+        "location": "Oklahoma City",
+        "state_or_area": "Oklahoma",
+        "commanding_organization": "Air Force Materiel Command",
+        "host_wing_or_primary_unit": "72nd Air Base Wing",
+        "primary_missions_and_units": "TheOklahoma City Air Logistics Complexis the primary logistics support depot forB-1B Lancer,B-2A Spirit,B-52H Stratofortress,KC-135R StratotankerandE-3 Sentry. The552nd Air Control Wingand513th Air Control Groupoperate the E-3 Sentry and the507th Air Refueling Wingthe KC-135R Stratotanker.[59][60][61]",
+        "latitude": "35.41472",
+        "longitude": "-97.38667"
+    },
+    {
+        "name": "Tonopah Test Range Airport",
+        "location": "Tonopah",
+        "state_or_area": "Nevada",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "30th Reconnaissance Squadron",
+        "primary_missions_and_units": "The30th Reconnaissance Squadronis a Geographically Separate Unit of the432nd Wingand operates theRQ-170 SentinelUAV.[62]",
+        "latitude": "37.79472",
+        "longitude": "-116.77861"
+    },
+    {
+        "name": "Travis Air Force Base",
+        "location": "Fairfield",
+        "state_or_area": "California",
+        "commanding_organization": "Air Mobility Command",
+        "host_wing_or_primary_unit": "60th Air Mobility Wing",
+        "primary_missions_and_units": "The60th Air Mobility Wingand349th Air Mobility Wingoperate theC-5M Galaxy,C-17A Globemaster IIIandKC-10A Extender. Also home to theDavid Grant USAF Medical Center.[63]",
+        "latitude": "38.26278",
+        "longitude": "-121.92750"
+    },
+    {
+        "name": "Tyndall Air Force Base",
+        "location": "Panama City",
+        "state_or_area": "Florida",
+        "commanding_organization": "Air Combat Command",
+        "host_wing_or_primary_unit": "325th Fighter Wing",
+        "primary_missions_and_units": "The325th Fighter Wingand44th Fighter Groupoperate theF-22A RaptorandT-38A/B/C Talonand the82nd Aerial Targets Squadrona range of drone targets. Also home to the headquarters of theFirst Air Forceand the601st Air and Space Operations Center, providing Command and control for air defense, homeland security and civil support missions forNorth American Aerospace Defense Command(NORAD).[64]",
+        "latitude": "30.07861",
+        "longitude": "-85.57639"
+    },
+    {
+        "name": "United States Air Force Academy",
+        "location": "Colorado Springs",
+        "state_or_area": "Colorado",
+        "commanding_organization": "Chief of Staff of the Air Force",
+        "host_wing_or_primary_unit": "10th Air Base Wing",
+        "primary_missions_and_units": "Military academyfor the US Air Force and US Space Force. It is both a military organization and a university, much of which is set up like most other Air Force bases, but theSuperintendent, Commandant, Dean of Faculty and cadet wing are set up like a civilian university. The306th Flying Training Groupoperates a variety of light training aircraft and gliders.[65][66]",
+        "latitude": "38.99028",
+        "longitude": "-104.85833"
+    },
+    {
+        "name": "Vance Air Force Base",
+        "location": "Enid",
+        "state_or_area": "Oklahoma",
+        "commanding_organization": "Air Education and Training Command",
+        "host_wing_or_primary_unit": "71st Flying Training Wing",
+        "primary_missions_and_units": "71st Flying Training Wingand5th Flying Training Squadronprovide undergraduate pilot training, flying theT-1A Jayhawk,T-6A Texan IIandT-38C Talon.T-38C Talon.[67][68]",
+        "latitude": "36.33944",
+        "longitude": "-97.91722"
+    },
+    {
+        "name": "Vandenberg Space Force Base",
+        "location": "Lompoc",
+        "state_or_area": "California",
+        "commanding_organization": "Various",
+        "host_wing_or_primary_unit": "N/A",
+        "primary_missions_and_units": "US Space Force installation hosting the532nd Training Squadronand576th Flight Test Squadron.[69]",
+        "latitude": "34.73250",
+        "longitude": "-120.56806"
+    },
+    {
+        "name": "Whiteman Air Force Base",
+        "location": "Knob Noster",
+        "state_or_area": "Missouri",
+        "commanding_organization": "Air Force Global Strike Command",
+        "host_wing_or_primary_unit": "509th Bomb Wing",
+        "primary_missions_and_units": "The509th Bomb Wingand theMissouri Air National Guard's131st Bomb Wingoperates theB-2A Spirit,T-38A Talon. Other units include the442nd Fighter Wing(A-10C Thunderbolt II) and the20th Attack Squadron(MQ-9A Reaper).[70]",
+        "latitude": "38.73028",
+        "longitude": "-93.54806"
+    },
+    {
+        "name": "Wright-Patterson Air Force Base",
+        "location": "Dayton",
+        "state_or_area": "Ohio",
+        "commanding_organization": "Air Force Materiel Command",
+        "host_wing_or_primary_unit": "88th Air Base Wing",
+        "primary_missions_and_units": "Headquarters ofAir Force Materiel Command, supporting a wide range of logistics, research & development and acquisition activities. Organisations include theAir Force Life Cycle Management Center,Air Force Research Laboratory,Air Force Institute of Technologyand theNational Air and Space Intelligence Center. The445th Airlift Wingoperates theC-17A Globemaster III. Also home to theNational Museum of the US Air Force.[71]",
+        "latitude": "39.82306",
+        "longitude": "-84.04944"
+    },
+    {
+        "name": "Abston Air National Guard Station",
+        "location": "Montgomery",
+        "state_or_area": "Alabama",
+        "commanding_organization": "Alabama Air National Guard",
+        "host_wing_or_primary_unit": "226th Combat Communications Group",
+        "primary_missions_and_units": "Non-flying installation. The226th Combat Communications Groupoperates in the combat communications role.[74]",
+        "latitude": "32.35611",
+        "longitude": "-86.34667"
+    },
+    {
+        "name": "Atlantic City Air National Guard Base",
+        "location": "Atlantic City",
+        "state_or_area": "New Jersey",
+        "commanding_organization": "New Jersey Air National Guard",
+        "host_wing_or_primary_unit": "177th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withAtlantic City International Airport. The177th Fighter Wingoperates theF-16C Fighting Falconmulti-role fighter.[75]",
+        "latitude": "39.44806",
+        "longitude": "-74.58167"
+    },
+    {
+        "name": "Bangor Air National Guard Base",
+        "location": "Bangor",
+        "state_or_area": "Maine",
+        "commanding_organization": "Maine Air National Guard",
+        "host_wing_or_primary_unit": "101st Air Refueling Wing",
+        "primary_missions_and_units": "Airfield shared withBangor International Airport. The101st Air Refueling Wingoperates theKC-135R Stratotanker.[76]",
+        "latitude": "44.81417",
+        "longitude": "-68.83083"
+    },
+    {
+        "name": "Barnes Air National Guard Base",
+        "location": "Westfield",
+        "state_or_area": "Massachusetts",
+        "commanding_organization": "Massachusetts Air National Guard",
+        "host_wing_or_primary_unit": "104th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withWestfield-Barnes Regional Airport. The104th Fighter Wingoperates theF-15C Eagleair superiority fighter.[77]",
+        "latitude": "42.16556",
+        "longitude": "-72.72056"
+    },
+    {
+        "name": "Battle Creek Air National Guard Base",
+        "location": "Springfield",
+        "state_or_area": "Michigan",
+        "commanding_organization": "Michigan Air National Guard",
+        "host_wing_or_primary_unit": "110th Wing",
+        "primary_missions_and_units": "Airfield shared withW. K. Kellogg Airport. The110th Wingoperates theMQ-9A Reaper.[78]",
+        "latitude": "42.307278",
+        "longitude": "-85.251472"
+    },
+    {
+        "name": "Berry Field Air National Guard Base",
+        "location": "Nashville",
+        "state_or_area": "Tennessee",
+        "commanding_organization": "Tennessee Air National Guard",
+        "host_wing_or_primary_unit": "118th Wing",
+        "primary_missions_and_units": "Airfield shared withNashville International Airport. The118th Wingoperates theMQ-9A Reaperand also performs in the intelligence, cyber systems andintelligence, surveillance and reconnaissance(ISR) roles.[79]",
+        "latitude": "36.12667",
+        "longitude": "-86.68194"
+    },
+    {
+        "name": "Biddle Air National Guard Base",
+        "location": "Horsham Township",
+        "state_or_area": "Pennsylvania",
+        "commanding_organization": "Pennsylvania Air National Guard",
+        "host_wing_or_primary_unit": "111th Attack Wing",
+        "primary_missions_and_units": "The111th Attack Wingoperates theMQ-9A Reaper.[80]",
+        "latitude": "40.19972",
+        "longitude": "-75.14806"
+    },
+    {
+        "name": "Bradley Air National Guard Base",
+        "location": "Windsor Locks",
+        "state_or_area": "Connecticut",
+        "commanding_organization": "Connecticut Air National Guard",
+        "host_wing_or_primary_unit": "103rd Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withBradley International Airport. The103rd Airlift Wingoperates theC-130H Herculesin the airlift role.[81]",
+        "latitude": "41.93889",
+        "longitude": "-72.68333"
+    },
+    {
+        "name": "Brunswick Air National Guard Station",
+        "location": "Brunswick",
+        "state_or_area": "Georgia",
+        "commanding_organization": "Georgia Air National Guard",
+        "host_wing_or_primary_unit": "224th Joint Communications Support Squadron",
+        "primary_missions_and_units": "Non-flying installation. The224th Joint Communications Support Squadronis a Geographically Separate Unit of the165th Airlift Wingand provides deployabletactical communicationsfor Joint and Special Operations Task Force Headquarters.[82]",
+        "latitude": "31.247750",
+        "longitude": "-81.48583"
+    },
+    {
+        "name": "Buckley Space Force Base",
+        "location": "Aurora",
+        "state_or_area": "Colorado",
+        "commanding_organization": "Colorado Air National Guard",
+        "host_wing_or_primary_unit": "140th Wing",
+        "primary_missions_and_units": "US Space Force basehosting the140th Wing(operating theF-16C Fighting Falcon) and other space related USAF units. Also hosts theAir Reserve Personnel Center.[83]",
+        "latitude": "39.70167",
+        "longitude": "-104.75167"
+    },
+    {
+        "name": "Burlington Air National Guard Base",
+        "location": "Burlington",
+        "state_or_area": "Vermont",
+        "commanding_organization": "Vermont Air National Guard",
+        "host_wing_or_primary_unit": "158th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withBurlington International Airport. The158th Fighter Wingoperates theF-35A Lighting IImulti-role fighter.[84]",
+        "latitude": "44.47278",
+        "longitude": "-73.14667"
+    },
+    {
+        "name": "Camp Murray Air National Guard Station",
+        "location": "Tacoma",
+        "state_or_area": "Washington",
+        "commanding_organization": "Washington Air National Guard",
+        "host_wing_or_primary_unit": "194th Wing",
+        "primary_missions_and_units": "Camp Murray is located adjacent to Joint Base Lewis\u2013McChord, Washington. It is home to the Washington Joint Forces Headquarters, including: theWashington Army National Guard, theWashington State Guard, theWashington Air National Guard, and the Washington State Emergency Operations Center.[85]",
+        "latitude": "47.11806",
+        "longitude": "-122.56000"
+    },
+    {
+        "name": "Camp Rilea",
+        "location": "Warrenton",
+        "state_or_area": "Oregon",
+        "commanding_organization": "Oregon Air National Guard",
+        "host_wing_or_primary_unit": "116th Air Control Squadron",
+        "primary_missions_and_units": "Oregon National Guard Training Complex under the jurisdiction of the Oregon Military Department, the 116th Air Control Squadron provides command and control capabilities for Oregon's North Coast emergency response and recovery operations.[86][87]",
+        "latitude": "46.12917",
+        "longitude": "-123.94389"
+    },
+    {
+        "name": "Capital Airport Air National Guard Station",
+        "location": "Springfield",
+        "state_or_area": "Illinois",
+        "commanding_organization": "Illinois Air National Guard",
+        "host_wing_or_primary_unit": "183d Wing",
+        "primary_missions_and_units": "Airfield shared withAbraham Lincoln Capital Airport. The183d Wingis a Centralized Intermediate Repair Facility which repairs and maintainsGeneral Electric F110engines used in the Air Force'sF-16 Fighting Falcon.[88]",
+        "latitude": "39.84417",
+        "longitude": "-89.67806"
+    },
+    {
+        "name": "Channel Islands Air National Guard Station",
+        "location": "Oxnard",
+        "state_or_area": "California",
+        "commanding_organization": "California Air National Guard",
+        "host_wing_or_primary_unit": "146th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withNaval Air Station Point Mugu. The146th Airlift Wingoperates theC-130J Super Herculesin the airlift andaerial firefightingroles, also home to the 562nd Air Force Band.[89]",
+        "latitude": "34.11500",
+        "longitude": "-119.11028"
+    },
+    {
+        "name": "Charlotte Air National Guard Base",
+        "location": "Charlotte",
+        "state_or_area": "North Carolina",
+        "commanding_organization": "North Carolina Air National Guard",
+        "host_wing_or_primary_unit": "145th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withCharlotte Douglas International Airport. The145th Airlift Wingoperates theC-17A Globemaster IIIin the airlift role.[90]",
+        "latitude": "35.21611",
+        "longitude": "-80.93194"
+    },
+    {
+        "name": "Dallas Air Guard Station",
+        "location": "Grand Prairie",
+        "state_or_area": "Texas",
+        "commanding_organization": "Texas Air National Guard",
+        "host_wing_or_primary_unit": "254th Combat Communications Group",
+        "primary_missions_and_units": "Non-flying installation, forming part of theGrand Prairie Armed Forces Reserve Complex. Geographically Separate Unit of the136th Airlift Wing.[91]",
+        "latitude": "32.74000",
+        "longitude": "-96.97000"
+    },
+    {
+        "name": "Des Moines Air National Guard Base",
+        "location": "Des Moines",
+        "state_or_area": "Iowa",
+        "commanding_organization": "Iowa Air National Guard",
+        "host_wing_or_primary_unit": "132nd Wing",
+        "primary_missions_and_units": "Airfield shared withDes Moines International Airport. The132nd Wingoperates theMQ-9A Reaper.[92]",
+        "latitude": "41.53833",
+        "longitude": "-93.65944"
+    },
+    {
+        "name": "Dobbins Air Reserve Base",
+        "location": "Marietta",
+        "state_or_area": "Georgia",
+        "commanding_organization": "Air Force Reserve Command",
+        "host_wing_or_primary_unit": "94th Airlift Wing",
+        "primary_missions_and_units": "The94th Airlift Wingoperates theC-130H Herculesin the airlift role, also home to the headquarters of theTwenty-Second Air Force[93]",
+        "latitude": "33.91528",
+        "longitude": "-84.51639"
+    },
+    {
+        "name": "Duke Field",
+        "location": "Crestview",
+        "state_or_area": "Florida",
+        "commanding_organization": "Air Force Reserve Command",
+        "host_wing_or_primary_unit": "919th Special Operations Wing",
+        "primary_missions_and_units": "The919th Special Operations Wingand elements of the492nd Special Operations Wingoperate theC-146A Wolfhound.[94]Elements of the96th Operations Groupoperate a range of special operations aircraft in the test and evaluation role.",
+        "latitude": "30.65028",
+        "longitude": "-86.52278"
+    },
+    {
+        "name": "Duluth Air National Guard Base",
+        "location": "Duluth",
+        "state_or_area": "Minnesota",
+        "commanding_organization": "Minnesota Air National Guard",
+        "host_wing_or_primary_unit": "148th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withDuluth International Airport. The177th Fighter Wingoperates theF-16C Fighting Falconmulti-role fighter.[95]",
+        "latitude": "46.84222",
+        "longitude": "-92.19361"
+    },
+    {
+        "name": "Eastern Air Defense Sector",
+        "location": "Rome",
+        "state_or_area": "New York",
+        "commanding_organization": "New York Air National Guard",
+        "host_wing_or_primary_unit": "224th Air Defense Group",
+        "primary_missions_and_units": "Non-flying installation. Air defence command and control unit permanently assigned toNORADand manned by theNew York Air National Guard's224th Air Defense Group.[96]",
+        "latitude": "43.216611",
+        "longitude": "-75.404833"
+    },
+    {
+        "name": "Ebbing Air National Guard Base",
+        "location": "Fort Smith",
+        "state_or_area": "Arkansas",
+        "commanding_organization": "Arkansas Air National Guard",
+        "host_wing_or_primary_unit": "188th Wing",
+        "primary_missions_and_units": "Airfield shared withFort Smith Regional Airport. The188th Wingoperates theMQ-9A Reaperand also performs in theintelligence, surveillance and reconnaissance(ISR) role.[97]",
+        "latitude": "35.33667",
+        "longitude": "-94.36750"
+    },
+    {
+        "name": "Ellington Field Joint Reserve Base",
+        "location": "Houston",
+        "state_or_area": "Texas",
+        "commanding_organization": "Texas Air National Guard",
+        "host_wing_or_primary_unit": "147th Attack Wing",
+        "primary_missions_and_units": "Airfield shared withEllington Airport. The147th Attack Wingoperates theMQ-9A Reaper.[98]",
+        "latitude": "29.60722",
+        "longitude": "-95.15889"
+    },
+    {
+        "name": "Fargo Air National Guard Base",
+        "location": "Fargo",
+        "state_or_area": "North Dakota",
+        "commanding_organization": "North Dakota Air National Guard",
+        "host_wing_or_primary_unit": "119th Wing",
+        "primary_missions_and_units": "Airfield shared withHector International Airport. The119th Wingoperates theMQ-9A Reaper.[99]",
+        "latitude": "46.92056",
+        "longitude": "-96.81583"
+    },
+    {
+        "name": "Forbes Field Air National Guard Base",
+        "location": "Topeka",
+        "state_or_area": "Kansas",
+        "commanding_organization": "Kansas Air National Guard",
+        "host_wing_or_primary_unit": "190th Air Refueling Wing",
+        "primary_missions_and_units": "Airfield shared withTopeka Regional Airport. The190th Air Refueling Wingoperates theKC-135 Stratotanker.[100]",
+        "latitude": "38.95111",
+        "longitude": "-95.66583"
+    },
+    {
+        "name": "Fort Bliss",
+        "location": "El Paso",
+        "state_or_area": "Texas",
+        "commanding_organization": "Texas Air National Guard",
+        "host_wing_or_primary_unit": "204th Security Forces Squadron",
+        "primary_missions_and_units": "An Active DutyUS ArmyInstallation hosting a Geographically Separate Unit of the149th Fighter Wing. The 204th Security Forces Squadron specifically occupiesBiggs Army Airfieldand operates as the only heavy weapons Security Forces unit in the Air National Guard.[101][102]",
+        "latitude": "31.80194",
+        "longitude": "-106.42472"
+    },
+    {
+        "name": "Fort Dodge Air National Guard Station",
+        "location": "Fort Dodge",
+        "state_or_area": "Iowa",
+        "commanding_organization": "Iowa Air National Guard",
+        "host_wing_or_primary_unit": "133rd Test Squadron",
+        "primary_missions_and_units": "Non-flying installation. The 133rd Test Squadron provides testing and evaluation of command, control, communications, computers andIntelligence, Surveillance, and Reconnaissance(ISR) systems.[103]",
+        "latitude": "42.550694",
+        "longitude": "-94.179250"
+    },
+    {
+        "name": "Fort Wayne Air National Guard Base",
+        "location": "Fort Wayne",
+        "state_or_area": "Indiana",
+        "commanding_organization": "Indiana Air National Guard",
+        "host_wing_or_primary_unit": "122nd Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withFort Wayne International Airport. The122nd Fighteroperates theA-10C Thunderbolt II.[104]",
+        "latitude": "40.97833",
+        "longitude": "-85.19500"
+    },
+    {
+        "name": "Naval Air Station Joint Reserve Base Fort Worth",
+        "location": "Fort Worth",
+        "state_or_area": "Texas",
+        "commanding_organization": "Various",
+        "host_wing_or_primary_unit": "N/A",
+        "primary_missions_and_units": "US Navy operatedjoint reserve base.Air Force Reserve Command's301st Fighter Wingoperates theF-16C Fighting Falconand theTexas Air National Guard's136th Airlift Wingoperates theC-130 Hercules. Home to headquarters of theTenth Air Force.",
+        "latitude": "32.76917",
+        "longitude": "-97.44167"
+    },
+    {
+        "name": "Francis S. Gabreski Air National Guard Base",
+        "location": "Westhampton Beach",
+        "state_or_area": "New York",
+        "commanding_organization": "New York Air National Guard",
+        "host_wing_or_primary_unit": "106th Rescue Wing",
+        "primary_missions_and_units": "Airfield shared withFrancis S. Gabreski Airport. The106th Rescue Wingoperates theHC-130J Combat King IIandHH-60G Pave Hawkin thecombat search and rescuerole.[105]",
+        "latitude": "40.83694",
+        "longitude": "-72.64222"
+    },
+    {
+        "name": "Fresno Air National Guard Base",
+        "location": "Fresno",
+        "state_or_area": "California",
+        "commanding_organization": "California Air National Guard",
+        "host_wing_or_primary_unit": "144th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withFresno Yosemite International Airport. The104th Fighter Wingoperates theF-15C Eagleair superiority fighter.[106]",
+        "latitude": "36.77611",
+        "longitude": "-119.73056"
+    },
+    {
+        "name": "General Mitchell Air National Guard Base",
+        "location": "Milwaukee",
+        "state_or_area": "Wisconsin",
+        "commanding_organization": "Wisconsin Air National Guard",
+        "host_wing_or_primary_unit": "128th Air Refueling Wing",
+        "primary_missions_and_units": "Airfield shared withMilwaukee Mitchell International Airport. The128th Air Refueling Wingoperates theKC-135R Stratotanker.[107]",
+        "latitude": "42.94722",
+        "longitude": "-87.89667"
+    },
+    {
+        "name": "Gowen Field Air National Guard Base",
+        "location": "Boise",
+        "state_or_area": "Idaho",
+        "commanding_organization": "Idaho Air National Guard",
+        "host_wing_or_primary_unit": "124th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withBoise Airport. The124th Fighter Wingoperates theA-10C Thunderbolt II.[108]",
+        "latitude": "43.56444",
+        "longitude": "-116.22278"
+    },
+    {
+        "name": "Great Falls Air National Guard Base",
+        "location": "Great Falls",
+        "state_or_area": "Montana",
+        "commanding_organization": "Montana Air National Guard",
+        "host_wing_or_primary_unit": "120th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withGreat Falls International Airport. The120th Airlift Wingoperates theC-130H Hercules.[109]",
+        "latitude": "47.4820000",
+        "longitude": "-111.3706833"
+    },
+    {
+        "name": "Greeley Air National Guard Station",
+        "location": "Greeley",
+        "state_or_area": "Colorado",
+        "commanding_organization": "Colorado Air National Guard",
+        "host_wing_or_primary_unit": "233rd Space Group",
+        "primary_missions_and_units": "Non-flying installation. The233rd Space Groupprovides a mobile ground system (MGS) missile warning capability.[110]",
+        "latitude": "40.423833",
+        "longitude": "-104.640167"
+    },
+    {
+        "name": "Grissom Air Reserve Base",
+        "location": "Kokomo",
+        "state_or_area": "Indiana",
+        "commanding_organization": "Air Force Reserve Command",
+        "host_wing_or_primary_unit": "434th Air Refueling Wing",
+        "primary_missions_and_units": "The434th Air Refueling Wingoperates theKC-135R Stratotanker.[111]",
+        "latitude": "40.64806",
+        "longitude": "-86.15222"
+    },
+    {
+        "name": "Goldwater Air National Guard Base",
+        "location": "Phoenix",
+        "state_or_area": "Arizona",
+        "commanding_organization": "Arizona Air National Guard",
+        "host_wing_or_primary_unit": "161st Air Refueling Wing",
+        "primary_missions_and_units": "Airfield shared withPhoenix Sky Harbor International Airport. The161st Air Refueling Wingoperates theKC-135R Stratotanker.",
+        "latitude": "33.42667",
+        "longitude": "-112.01194"
+    },
+    {
+        "name": "Gulfport Combat Readiness Training Center",
+        "location": "Gulfport",
+        "state_or_area": "Mississippi",
+        "commanding_organization": "Mississippi Air National Guard",
+        "host_wing_or_primary_unit": "N/A",
+        "primary_missions_and_units": "Hosts regular deployments of Army and Air Force national guard units, offering training airspace over an area directly adjacent to theGulf of Mexico. Home of the 209th Special Operations Civil Engineer Squadron and 255th Air Control Squadron.[112]",
+        "latitude": "30.40722",
+        "longitude": "-89.07000"
+    },
+    {
+        "name": "Hall Air Guard Station",
+        "location": "Dothan",
+        "state_or_area": "Alabama",
+        "commanding_organization": "Alabama Air National Guard",
+        "host_wing_or_primary_unit": "280th Special Operations Communications Squadron",
+        "primary_missions_and_units": "Non-flying installation. Geographically Separate Unit of the226th Combat Communications Group, providing provide strategic air defense & sovereignty and air tactical warning & assessment toNORAD.[113]",
+        "latitude": "31.329639",
+        "longitude": "-85.465889"
+    },
+    {
+        "name": "Hancock Field Air National Guard Base",
+        "location": "Syracuse",
+        "state_or_area": "New York",
+        "commanding_organization": "New York Air National Guard",
+        "host_wing_or_primary_unit": "174th Attack Wing",
+        "primary_missions_and_units": "Airfield shared withSyracuse Hancock International Airport. The174th Attack Wingoperates theMQ-9A Reaper. Also home to the274th Air Support Operations Squadron.[114]",
+        "latitude": "43.11139",
+        "longitude": "-76.12361"
+    },
+    {
+        "name": "Harrisburg Air Station Middletown",
+        "location": "Middletown",
+        "state_or_area": "Pennsylvania",
+        "commanding_organization": "Pennsylvania Air National Guard",
+        "host_wing_or_primary_unit": "193rd Special Operations Wing",
+        "primary_missions_and_units": "Airfield shared withHarrisburg International Airport.193rd Special Operations Wingoperates theEC-130J Commando Soloin thepsychological operations(PSYOP) role.[115]",
+        "latitude": "40.19361",
+        "longitude": "-76.76333"
+    },
+    {
+        "name": "Homestead Air Reserve Base",
+        "location": "Homestead",
+        "state_or_area": "Florida",
+        "commanding_organization": "Air Force Reserve Command",
+        "host_wing_or_primary_unit": "482nd Fighter Wing",
+        "primary_missions_and_units": "The482nd Fighter Wingand367th Fighter Squadronoperate theF-16C/D Fighting Falconwhereas a detachment of the125th Fighter Wingoperates theF-15C Eagle.[116][117]",
+        "latitude": "25.48833",
+        "longitude": "-80.38361"
+    },
+    {
+        "name": "Hulman Field Air National Guard Base",
+        "location": "Terre Haute",
+        "state_or_area": "Indiana",
+        "commanding_organization": "Indiana Air National Guard",
+        "host_wing_or_primary_unit": "181st Intelligence Wing",
+        "primary_missions_and_units": "Non-flying installation. The181st Intelligence Wingmonitors, process, exploits, and disseminates near real-time information fromunmanned aerial vehiclesoperating globally.[118]",
+        "latitude": "39.45139",
+        "longitude": "-87.30750"
+    },
+    {
+        "name": "Jackson Air National Guard Base",
+        "location": "Jackson",
+        "state_or_area": "Mississippi",
+        "commanding_organization": "Mississippi Air National Guard",
+        "host_wing_or_primary_unit": "172nd Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withJackson\u2013Medgar Wiley Evers International Airport. The172nd Airlift Wingoperates theC-17A Globemaster III.[119]",
+        "latitude": "32.31111",
+        "longitude": "-90.07583"
+    },
+    {
+        "name": "Jacksonville Air National Guard Base",
+        "location": "Jacksonville, Florida",
+        "state_or_area": "Florida",
+        "commanding_organization": "Florida Air National Guard",
+        "host_wing_or_primary_unit": "125th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withJacksonville International Airport. The125th Fighter Wingoperates theF-15C Eagleair superiority fighter.[120]",
+        "latitude": "30.49417",
+        "longitude": "-81.68778"
+    },
+    {
+        "name": "Jefferson Barracks Air National Guard Station",
+        "location": "St Louis",
+        "state_or_area": "Missouri",
+        "commanding_organization": "Missouri Air National Guard",
+        "host_wing_or_primary_unit": "157th Air Operations Group",
+        "primary_missions_and_units": "Non-flying installation within theJefferson Barracks Military Post. Geographically Separate Unit of the131st Bomb Wing, providing acommand and control(C2) capability.[121]",
+        "latitude": "38.503972",
+        "longitude": "-90.280250"
+    },
+    {
+        "name": "Joe Foss Field Air National Guard Station",
+        "location": "Sioux Falls",
+        "state_or_area": "South Dakota",
+        "commanding_organization": "South Dakota Air National Guard",
+        "host_wing_or_primary_unit": "114th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withSioux Falls Regional Airport. The114th Fighter Wingoperates theF-16C Fighting Falconmulti-role fighter.[122]",
+        "latitude": "43.58194",
+        "longitude": "-96.74194"
+    },
+    {
+        "name": "Johnstown Air National Guard Station",
+        "location": "Johnstown",
+        "state_or_area": "Pennsylvania",
+        "commanding_organization": "Pennsylvania Air National Guard",
+        "host_wing_or_primary_unit": "258th Air Traffic Control Squadron",
+        "primary_missions_and_units": "Operates the air traffic control service atJohnstown-Cambria County Airport.[123]",
+        "latitude": "40.323194",
+        "longitude": "-78.837694"
+    },
+    {
+        "name": "Key Field Air National Guard Base",
+        "location": "Meridian",
+        "state_or_area": "Mississippi",
+        "commanding_organization": "Mississippi Air National Guard",
+        "host_wing_or_primary_unit": "186th Air Refueling Wing",
+        "primary_missions_and_units": "Airfield shared withMeridian Regional Airport. The186th Air Refueling Wingoperates theKC-135R Stratotanker. Also home to the 238th Air Support Operations Squadron and 248th Air Traffic Control Squadron.[124]",
+        "latitude": "32.33250",
+        "longitude": "-88.75194"
+    },
+    {
+        "name": "Kingsley Field Air National Guard Base",
+        "location": "Klamath Falls",
+        "state_or_area": "Oregon",
+        "commanding_organization": "Oregon Air National Guard",
+        "host_wing_or_primary_unit": "173rd Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withKlamath Falls Airport. The173rd Fighter WingtrainsAir National Guardandactive dutyF-15 Eaglepilots. Also home to the 270th Air Traffic Control Squadron.[125]",
+        "latitude": "42.15611",
+        "longitude": "-121.73306"
+    },
+    {
+        "name": "Lincoln Air National Guard Base",
+        "location": "Lincoln",
+        "state_or_area": "Nebraska",
+        "commanding_organization": "Nebraska Air National Guard",
+        "host_wing_or_primary_unit": "155th Air Refueling Wing",
+        "primary_missions_and_units": "Airport shared withLincoln Airport. The155th Air Refueling Wingoperates theKC-135R Stratotanker.[126]",
+        "latitude": "40.85111",
+        "longitude": "-96.75917"
+    },
+    {
+        "name": "Louisville Air National Guard Base",
+        "location": "Louisville",
+        "state_or_area": "Kentucky",
+        "commanding_organization": "Kentucky Air National Guard",
+        "host_wing_or_primary_unit": "123rd Airlift Wing",
+        "primary_missions_and_units": "Airport shared withLouisville International Airport. The123rd Airlift Wingoperates theC-130H Hercules. Also home to the123rd Special Tactics Squadron.[127]",
+        "latitude": "38.17806",
+        "longitude": "-85.72472"
+    },
+    {
+        "name": "Mansfield Lahm Air National Guard Base",
+        "location": "Mansfield",
+        "state_or_area": "Ohio",
+        "commanding_organization": "Ohio Air National Guard",
+        "host_wing_or_primary_unit": "179th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withMansfield Lahm Regional Airport. The179th Airlift Wingoperates theC-130H Hercules.[128]",
+        "latitude": "40.81361",
+        "longitude": "-82.51667"
+    },
+    {
+        "name": "March Joint Air Reserve Base",
+        "location": "Riverside",
+        "state_or_area": "California",
+        "commanding_organization": "Air Force Reserve Command",
+        "host_wing_or_primary_unit": "452nd Air Mobility Wing",
+        "primary_missions_and_units": "The452nd Air Mobility Wingoperates theC-17A Globemaster IIIandKC-135R Stratotanker.The base also hosts theCalifornia Air National Guard's163rd Attack Wing(MQ-9A Reaper), the912th Air Refueling Squadron(KC-135R) and the headquarters of theFourth Air Force.[129]",
+        "latitude": "33.88056",
+        "longitude": "-117.25944"
+    },
+    {
+        "name": "McEntire Joint National Guard Base",
+        "location": "Eastover",
+        "state_or_area": "South Carolina",
+        "commanding_organization": "South Carolina Air National Guard",
+        "host_wing_or_primary_unit": "169th Fighter Wing",
+        "primary_missions_and_units": "The169th Fighter Wingoperates theF-16C Fighting Falconmulti-role fighter.[130]",
+        "latitude": "33.92083",
+        "longitude": "-80.80111"
+    },
+    {
+        "name": "McGhee Tyson Air National Guard Base",
+        "location": "Knoxville",
+        "state_or_area": "Tennessee",
+        "commanding_organization": "Tennessee Air National Guard",
+        "host_wing_or_primary_unit": "134th Air Refueling Wing",
+        "primary_missions_and_units": "Airfield shared withMcGhee Tyson Airport. The134th Air Refueling Wingoperates theKC-135R Stratotanker.Also home to the119th Command and Control Squadronand theI.G. Brown Training and Education Center, which is a detachment of theAir National Guard Readiness Center.[131][132]",
+        "latitude": "35.81083",
+        "longitude": "-83.99389"
+    },
+    {
+        "name": "McLaughlin Air National Guard Base",
+        "location": "Charleston",
+        "state_or_area": "West Virginia",
+        "commanding_organization": "West Virginia Air National Guard",
+        "host_wing_or_primary_unit": "130th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withYeager Airport. The130th Airlift Wingoperates theC-130 J-30 Super Hercules.[133]",
+        "latitude": "38.37306",
+        "longitude": "-81.59306"
+    },
+    {
+        "name": "Memphis Air National Guard Base",
+        "location": "Memphis",
+        "state_or_area": "Tennessee",
+        "commanding_organization": "Tennessee Air National Guard",
+        "host_wing_or_primary_unit": "164th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withMemphis International Airport. The164th Airlift Wingoperates theC-17A Globemaster III.[134]",
+        "latitude": "35.04250",
+        "longitude": "-89.97667"
+    },
+    {
+        "name": "Minneapolis-Saint Paul Joint Air Reserve Station",
+        "location": "Minneapolis \u2013 Saint Paul",
+        "state_or_area": "Minnesota",
+        "commanding_organization": "Air Force Reserve Command",
+        "host_wing_or_primary_unit": "934th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withMinneapolis-Saint Paul International Airport. The934th Airlift Wingand theMinnesota Air National Guard's133rd Airlift Wingoperates theC-130 Hercules.[135][136]",
+        "latitude": "44.88167",
+        "longitude": "-93.23361"
+    },
+    {
+        "name": "Moffett Federal Airfield",
+        "location": "Mountain View",
+        "state_or_area": "California",
+        "commanding_organization": "California Air National Guard",
+        "host_wing_or_primary_unit": "129th Rescue Wing",
+        "primary_missions_and_units": "NASAoperated airfield. The129th Rescue Wingoperates theHC-130J Combat King IIandHH-60G Pave Hawkin thecombat search and rescuerole.[137]",
+        "latitude": "37.41500",
+        "longitude": "-122.04833"
+    },
+    {
+        "name": "Montgomery Air National Guard Base",
+        "location": "Montgomery",
+        "state_or_area": "Alabama",
+        "commanding_organization": "Alabama Air National Guard",
+        "host_wing_or_primary_unit": "187th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withMontgomery Regional Airport. The187th Fighter Wingoperate theF-16C Fighting Falconmulti-role fighter.[138][139]In 2020, Montgomery ANG base was announced to have been selected as a base for theF-35A Lightning II, which would replace the F-16C.[140]",
+        "latitude": "32.30444",
+        "longitude": "-86.40028"
+    },
+    {
+        "name": "Morris Air National Guard Base",
+        "location": "Tucson",
+        "state_or_area": "Arizona",
+        "commanding_organization": "Arizona Air National Guard",
+        "host_wing_or_primary_unit": "162nd Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withTucson International Airport. The162nd Fighter Wingoperates theF-16C Fighting Falconmulti-role fighter.[141]",
+        "latitude": "32.11528",
+        "longitude": "-110.93056"
+    },
+    {
+        "name": "New Castle Air National Guard Base",
+        "location": "New Castle",
+        "state_or_area": "Delaware",
+        "commanding_organization": "Delaware Air National Guard",
+        "host_wing_or_primary_unit": "166th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withNew Castle Airport. The166th Airlift Wingoperates theC-130H Hercules.[142]",
+        "latitude": "39.68528",
+        "longitude": "-75.59917"
+    },
+    {
+        "name": "New London Air National Guard Base",
+        "location": "New London",
+        "state_or_area": "North Carolina",
+        "commanding_organization": "North Carolina Air National Guard",
+        "host_wing_or_primary_unit": "N/A",
+        "primary_missions_and_units": "Airfield shared withStanly County Airport. Home of the 263rd Combat Communications Squadron, 235th Air Traffic Squadron and 118th Air Support Operations Squadron, all Geographically Separate Units of the145th Airlift Wing.[143]",
+        "latitude": "35.418583",
+        "longitude": "-80.14167"
+    },
+    {
+        "name": "Naval Air Station Joint Reserve Base New Orleans",
+        "location": "Belle Chasse",
+        "state_or_area": "Louisiana",
+        "commanding_organization": "Louisiana Air National Guard",
+        "host_wing_or_primary_unit": "159th Fighter Wing",
+        "primary_missions_and_units": "US Navy operatedjoint reserve base. The159th Fighter Wingoperates theF-15C/D Eagle.[144]",
+        "latitude": "29.82528",
+        "longitude": "-90.03500"
+    },
+    {
+        "name": "Niagara Falls Air Reserve Station",
+        "location": "Niagara Falls",
+        "state_or_area": "New York",
+        "commanding_organization": "Air Force Reserve Command",
+        "host_wing_or_primary_unit": "914th Air Refueling Wing",
+        "primary_missions_and_units": "Airfield shared withNiagara Falls International Airport. The914th Air Refueling Wingoperates theKC-135R Stratotankerand theNew York Air National Guard's107th Attack WingtheMQ-9A Reaper.[145]",
+        "latitude": "43.11333",
+        "longitude": "-78.94750"
+    },
+    {
+        "name": "North Highlands Air National Guard Station",
+        "location": "Sacramento, California",
+        "state_or_area": "California",
+        "commanding_organization": "California Air National Guard",
+        "host_wing_or_primary_unit": "162nd Combat Communications Group",
+        "primary_missions_and_units": "Non-flying installation. The162nd Combat Communications Groupoperates in the combat communications role.[146]",
+        "latitude": "38.64000",
+        "longitude": "-121.40250"
+    },
+    {
+        "name": "North Smithfield Air National Guard Station",
+        "location": "North Smithfield",
+        "state_or_area": "Rhode Island",
+        "commanding_organization": "Rhode Island Air National Guard",
+        "host_wing_or_primary_unit": "282nd Combat Communications Squadron",
+        "primary_missions_and_units": "Non-flying installation. The 282nd Combat Communications Squadron operates in the combat communications role.[147]",
+        "latitude": "41.97028",
+        "longitude": "-71.575667"
+    },
+    {
+        "name": "Otis Air National Guard Base",
+        "location": "Mashpee",
+        "state_or_area": "Massachusetts",
+        "commanding_organization": "Massachusetts Air National Guard",
+        "host_wing_or_primary_unit": "102nd Intelligence Wing",
+        "primary_missions_and_units": "Non-flying installation, part ofJoint Base Cape Cod. The102nd Intelligence Wingoperates in the intelligence andcommand and controlroles.[148]The267th Combat Communications Squadrondeploys, operates and maintains strategic emergency communications.",
+        "latitude": "41.65861",
+        "longitude": "-70.52139"
+    },
+    {
+        "name": "Pease Air National Guard Base",
+        "location": "Portsmouth",
+        "state_or_area": "New Hampshire",
+        "commanding_organization": "New Hampshire Air National Guard",
+        "host_wing_or_primary_unit": "157th Air Refueling Wing",
+        "primary_missions_and_units": "Airfield shared withPortsmouth International Airport at Pease. The157th Air Refueling Wingoperates theKC-46A Pegasus.[149]",
+        "latitude": "43.07806",
+        "longitude": "-70.82333"
+    },
+    {
+        "name": "Peoria Air National Guard Base",
+        "location": "Peoria",
+        "state_or_area": "Illinois",
+        "commanding_organization": "Illinois Air National Guard",
+        "host_wing_or_primary_unit": "182nd Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withGeneral Wayne A. Downing Peoria International Airport. The182nd Airlift Wingoperates theC-130H Hercules.[150]",
+        "latitude": "40.66056",
+        "longitude": "-89.69556"
+    },
+    {
+        "name": "Peterson Space Force Base",
+        "location": "Colorado Springs",
+        "state_or_area": "Colorado",
+        "commanding_organization": "US Space Force",
+        "host_wing_or_primary_unit": "302nd Airlift Wing",
+        "primary_missions_and_units": "US Space Force instillation hosting the302nd Airlift Wingoperate theC-130H Hercules.[151]",
+        "latitude": "38.82361",
+        "longitude": "-104.69500"
+    },
+    {
+        "name": "Pittsburgh International Airport Air Reserve Station",
+        "location": "Pittsburgh",
+        "state_or_area": "Pennsylvania",
+        "commanding_organization": "Air Force Reserve Command",
+        "host_wing_or_primary_unit": "911th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withPittsburgh International Airport. The911th Airlift Wingoperates theC-17A Globemaster IIIand thePennsylvania Air National Guard's171st Air Refueling WingtheKC-135R Stratotanker.[152][153]",
+        "latitude": "40.4945806",
+        "longitude": "-80.2154750"
+    },
+    {
+        "name": "Portland Air National Guard Base",
+        "location": "Portland",
+        "state_or_area": "Oregon",
+        "commanding_organization": "Oregon Air National Guard",
+        "host_wing_or_primary_unit": "142nd Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withPortland International Airport. The142nd Fighter Wingoperates theF-15C/D Eagleair superiority fighter, also home to the125th Special Tactics Squadron.[154]",
+        "latitude": "45.58222",
+        "longitude": "-122.58972"
+    },
+    {
+        "name": "Quonset Point Air National Guard Station",
+        "location": "North Kingstown",
+        "state_or_area": "Rhode Island",
+        "commanding_organization": "Rhode Island Air National Guard",
+        "host_wing_or_primary_unit": "143rd Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withQuonset State Airport. The143rd Airlift Wingoperates theC-130J Super Hercules, also home to the 102nd Network Warfare Squadron.[155]",
+        "latitude": "41.59722",
+        "longitude": "-71.41222"
+    },
+    {
+        "name": "Reno Air National Guard Base",
+        "location": "Reno",
+        "state_or_area": "Nevada",
+        "commanding_organization": "Nevada Air National Guard",
+        "host_wing_or_primary_unit": "152nd Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withReno-Tahoe International Airport. The152nd Airlift Wingoperates theC-130H Hercules.[156]",
+        "latitude": "39.49917",
+        "longitude": "-119.76806"
+    },
+    {
+        "name": "Rickenbacker Air National Guard Base",
+        "location": "Columbus",
+        "state_or_area": "Ohio",
+        "commanding_organization": "Ohio Air National Guard",
+        "host_wing_or_primary_unit": "121st Air Refueling Wing",
+        "primary_missions_and_units": "Airfield shared withRickenbacker International Airport. The121st Air Refueling Wingoperates theKC-135R Stratotanker.[157]",
+        "latitude": "39.81361",
+        "longitude": "-82.94667"
+    },
+    {
+        "name": "Roland R. Wright Air National Guard Base",
+        "location": "Salt Lake City",
+        "state_or_area": "Utah",
+        "commanding_organization": "Utah Air National Guard",
+        "host_wing_or_primary_unit": "151st Air Refueling Wing",
+        "primary_missions_and_units": "Airfield shared withSalt Lake City International Airport. The151st Air Refueling Wingoperates theKC-135R Stratotanker.[158]",
+        "latitude": "40.78833",
+        "longitude": "-111.97778"
+    },
+    {
+        "name": "Rosecrans Air National Guard Base",
+        "location": "St. Joseph",
+        "state_or_area": "Missouri",
+        "commanding_organization": "Missouri Air National Guard",
+        "host_wing_or_primary_unit": "139th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withRosecrans Memorial Airport. The139th Airlift Wingoperates theC-130H Hercules.[159]",
+        "latitude": "39.77194",
+        "longitude": "-94.9097056"
+    },
+    {
+        "name": "San Diego Air National Guard Station",
+        "location": "San Diego",
+        "state_or_area": "California",
+        "commanding_organization": "California Air National Guard",
+        "host_wing_or_primary_unit": "147th Combat Communications Squadron",
+        "primary_missions_and_units": "Non-flying installation home to a Geographically Separate Unit of the195th Wing.[160]",
+        "latitude": "32.83611",
+        "longitude": "-117.16056"
+    },
+    {
+        "name": "Savannah Air National Guard Base",
+        "location": "Savannah",
+        "state_or_area": "Georgia",
+        "commanding_organization": "Georgia Air National Guard",
+        "host_wing_or_primary_unit": "165th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withSavannah/Hilton Head International Airport. The165th Airlift Wingoperates theC-130H Hercules, also home to the Air Dominance Center.[161]",
+        "latitude": "32.12750",
+        "longitude": "-81.20194"
+    },
+    {
+        "name": "Schriever Space Force Base",
+        "location": "Colorado Springs",
+        "state_or_area": "Colorado",
+        "commanding_organization": "US Space Force",
+        "host_wing_or_primary_unit": "310th Space Wing",
+        "primary_missions_and_units": "US Space Forceinstallation, hosting the USAF's the Air Force Reserves310th Space Wing.[162]",
+        "latitude": "38.80333",
+        "longitude": "-104.52556"
+    },
+    {
+        "name": "Selfridge Air National Guard Base",
+        "location": "Mount Clemens",
+        "state_or_area": "Michigan",
+        "commanding_organization": "Michigan Air National Guard",
+        "host_wing_or_primary_unit": "127th Wing",
+        "primary_missions_and_units": "The127th Wingoperates theKC-135R StratotankerandA-10 Thunderbolt II.[163]",
+        "latitude": "42.60833",
+        "longitude": "-82.83556"
+    },
+    {
+        "name": "Sepulveda Air National Guard Station",
+        "location": "Van Nuys",
+        "state_or_area": "California",
+        "commanding_organization": "California National Guard",
+        "host_wing_or_primary_unit": "261st Cyber Operations Squadron",
+        "primary_missions_and_units": "Non-flying installation. Geographically Separate Unit of the195th Wing.[164]",
+        "latitude": "34.185944",
+        "longitude": "-118.48000"
+    },
+    {
+        "name": "Shepherd Field Air National Guard Base",
+        "location": "Martinsburg",
+        "state_or_area": "West Virginia",
+        "commanding_organization": "West Virginia Air National Guard",
+        "host_wing_or_primary_unit": "167th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withEastern West Virginia Regional Airport. The167th Airlift Wingoperates theC-17A Globemaster III.[165]",
+        "latitude": "39.40194",
+        "longitude": "-77.98444"
+    },
+    {
+        "name": "Sioux City Air National Guard Base",
+        "location": "Sioux City",
+        "state_or_area": "Iowa",
+        "commanding_organization": "Iowa Air National Guard",
+        "host_wing_or_primary_unit": "185th Air Refueling Wing",
+        "primary_missions_and_units": "Airfield shared withSioux Gateway Airport. The185th Air Refueling Wingoperates theKC-135R Stratotanker.[166]",
+        "latitude": "42.39833",
+        "longitude": "-96.37194"
+    },
+    {
+        "name": "South Portland Air National Guard Station",
+        "location": "South Portland",
+        "state_or_area": "Maine",
+        "commanding_organization": "Maine Air National Guard",
+        "host_wing_or_primary_unit": "N/A",
+        "primary_missions_and_units": "Non-flying installation. Home to the 265th Combat Communications Squadron and 243rd Engineering and Installation Squadron, both Geographically Separate Units of the101st Air Refueling Wing.[167]",
+        "latitude": "43.633583",
+        "longitude": "-70.316306"
+    },
+    {
+        "name": "Springfield Air National Guard Base",
+        "location": "Springfield",
+        "state_or_area": "Ohio",
+        "commanding_organization": "Ohio Air National Guard",
+        "host_wing_or_primary_unit": "178th Wing",
+        "primary_missions_and_units": "Airfield shared withSpringfield-Beckley Municipal Airport. The178th Wingoperates theMQ-9A Predator.[168]",
+        "latitude": "39.84028",
+        "longitude": "-83.84028"
+    },
+    {
+        "name": "Stewart Air National Guard Base",
+        "location": "Newburgh",
+        "state_or_area": "New York",
+        "commanding_organization": "New York Air National Guard",
+        "host_wing_or_primary_unit": "105th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withStewart International Airport. The105th Airlift Wingoperates theC-17A Globemaster III.[169]",
+        "latitude": "41.50417",
+        "longitude": "-74.10472"
+    },
+    {
+        "name": "Stratton Air National Guard Base",
+        "location": "Schenectady",
+        "state_or_area": "New York",
+        "commanding_organization": "New York Air National Guard",
+        "host_wing_or_primary_unit": "109th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withSchenectady County Airport. The109th Airlift Wingis the only Air Force unit equipped with ski-equippedLC-130H Herculesfor Arctic ice/snow landing missions in support of theNational Science Foundation.[170]",
+        "latitude": "42.85250",
+        "longitude": "-73.92250"
+    },
+    {
+        "name": "Sumpter Smith Air National Guard Base",
+        "location": "Birmingham",
+        "state_or_area": "Alabama",
+        "commanding_organization": "Alabama Air National Guard",
+        "host_wing_or_primary_unit": "117th Air Refueling Wing",
+        "primary_missions_and_units": "The117th Air Refueling Wingoperates theKC-135R Stratotanker.[171]",
+        "latitude": "33.56389",
+        "longitude": "-86.75222"
+    },
+    {
+        "name": "Toledo Air National Guard Base",
+        "location": "Toledo",
+        "state_or_area": "Ohio",
+        "commanding_organization": "Ohio Air National Guard",
+        "host_wing_or_primary_unit": "180th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withToledo Express Airport. The180th Fighter Wingoperates theF-16C Fighting Falconmulti-role fighter.[172]",
+        "latitude": "41.586806",
+        "longitude": "-83.807833"
+    },
+    {
+        "name": "Truax Field Air National Guard Base",
+        "location": "Madison",
+        "state_or_area": "Wisconsin",
+        "commanding_organization": "Wisconsin Air National Guard",
+        "host_wing_or_primary_unit": "115th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withDane County Regional Airport. The115th Fighter Wingoperates theF-16C Fighting Falconmulti-role fighter.[173]In 2020, Traux Field ANG base was announced to have been selected as a base for theF-35A Lightning II, which would replace the F-16C.[140]",
+        "latitude": "43.13972",
+        "longitude": "-89.33750"
+    },
+    {
+        "name": "Tulsa Air National Guard Base",
+        "location": "Tulsa",
+        "state_or_area": "Oklahoma",
+        "commanding_organization": "Oklahoma Air National Guard",
+        "host_wing_or_primary_unit": "138th Fighter Wing",
+        "primary_missions_and_units": "Airfield shared withTulsa International Airport. The138th Fighter Wingoperates theF-16C Fighting Falconmulti-role fighter.[174]",
+        "latitude": "36.19833",
+        "longitude": "-95.88806"
+    },
+    {
+        "name": "Volk Field Air National Guard Base",
+        "location": "New Lisbon",
+        "state_or_area": "Wisconsin",
+        "commanding_organization": "Wisconsin Air National Guard",
+        "host_wing_or_primary_unit": "Volk Field Combat Readiness Training Center",
+        "primary_missions_and_units": "Home of one of four Air National Guard Combat Readiness Training Centers.[175]",
+        "latitude": "43.93639",
+        "longitude": "-90.25972"
+    },
+    {
+        "name": "Volunteer Air National Guard Station",
+        "location": "Chattanooga",
+        "state_or_area": "Tennessee",
+        "commanding_organization": "Tennessee Air National Guard",
+        "host_wing_or_primary_unit": "241st Engineering Installation Squadron",
+        "primary_missions_and_units": "A non-flying installation hosting a Geographically Separate Unit of the134th Air Refueling Wing.[176][177]",
+        "latitude": "35.0735861",
+        "longitude": "-85.163500"
+    },
+    {
+        "name": "Warfield Air National Guard Base",
+        "location": "Middle River",
+        "state_or_area": "Maryland",
+        "commanding_organization": "Maryland Air National Guard",
+        "host_wing_or_primary_unit": "175th Wing",
+        "primary_missions_and_units": "Airfield shared withMartin State Airport. The175th Wingoperates theA-10C Thunderbolt II.[178]",
+        "latitude": "39.3256611",
+        "longitude": "-76.4137639"
+    },
+    {
+        "name": "Westover Air Reserve Base",
+        "location": "Chicopee",
+        "state_or_area": "Massachusetts",
+        "commanding_organization": "Air Force Reserve Command",
+        "host_wing_or_primary_unit": "439th Airlift Wing",
+        "primary_missions_and_units": "The439th Airlift Wingoperates theC-5M Super Galaxy.[179]",
+        "latitude": "42.19389",
+        "longitude": "-72.53472"
+    },
+    {
+        "name": "Will Rogers Air National Guard Base",
+        "location": "Oklahoma City",
+        "state_or_area": "Oklahoma",
+        "commanding_organization": "Oklahoma Air National Guard",
+        "host_wing_or_primary_unit": "137th Special Operations Wing",
+        "primary_missions_and_units": "Airfield shared withWill Rogers World Airport. The137th Special Operations Wingoperates theMC-12W Libertyin theIntelligence, Surveillance & Reconnaissance(ISR) role.[180]",
+        "latitude": "35.39306",
+        "longitude": "-97.60083"
+    },
+    {
+        "name": "Wyoming Air National Guard Base",
+        "location": "Cheyenne",
+        "state_or_area": "Wyoming",
+        "commanding_organization": "Wyoming Air National Guard",
+        "host_wing_or_primary_unit": "153d Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withCheyenne Regional Airport. Operates theC-130H Herculesin the airlift andaerial firefightingroles. Also homes to the243rd Air Traffic Control Squadron.[181]",
+        "latitude": "41.16139",
+        "longitude": "-104.81944"
+    },
+    {
+        "name": "Youngstown Air Reserve Station",
+        "location": "Youngstown",
+        "state_or_area": "Ohio",
+        "commanding_organization": "Air Force Reserve Command",
+        "host_wing_or_primary_unit": "910th Airlift Wing",
+        "primary_missions_and_units": "Airfield shared withYoungstown-Warren Regional Airport. The910th Airlift Wingoperates theC-130H Herculesin theaerial sprayrole.[182]",
+        "latitude": "41.2607333",
+        "longitude": "-80.6790944"
+    }
+]
