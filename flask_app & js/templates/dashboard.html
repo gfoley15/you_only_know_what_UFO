@@ -1,74 +1,79 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>UFO Dashboard</title>
-      
-        <!-- D3 library -->
-        <script src="https://d3js.org/d3.v7.min.js"></script>
-      
-        <!-- Leaflet CSS -->
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-        crossorigin=""/>
-      
-        <!-- Leaflet JavaScript code -->
-        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-        crossorigin=""></script>
-    
-      </head>
-      <body>
-      
-        <!-- The div that holds our map -->
-        <div id="map-id"></div>
+<head>
+<title>Dashboard</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", Verdana}
+</style>
+</head>
+<body class="w3-light-grey">
 
+<!-- Top container -->
+<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+  <span class="w3-bar-item w3-right">Project 3</span>
+</div>
 
-<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-<script src="./static/js/app.js"></script>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-light-grey" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <div class="w3-col s4">
+    </div>
+  </div>
+  <div class="w3-container">
+    <h6>Search By City</h6>
+    <select id="City" onchange="optionChanged(this.value)"></select>
+      </div>
+      <br>
+  <hr>
+  <div class="w3-container">
+    <div class="card card-primary">
+      <div class="card-header">
+    <h6 class="card-title">Sighting Details</h6>
+    <p>x</p>
+  </div>
+  <div class="w3-bar-block">
+  </div>
+</nav>
 
-<script>
-function createMap(sightings) {
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
 
-// Create the tile layer that will be the background of our map.
-let streetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-});
+  <!-- Header -->
+  <header class="w3-container w3-text-green" style="padding-top:22px">
+    <h2><b> UFO Dashboard</b></h2>
+  </header>
 
+  <div class="w3-panel">
+    <div class="w3-row-padding" style="margin:0">
+      <div class="w3-third">
+        <h5>Type of UFO</h5>
+        <p>Insert Bar Chart Here</p>
+      </div>
+    </div>
+  </div>
+  <div class="w3-container" style="margin:0 16px">
+    <h5>Sightings Map</h5>
+    <p>Insert Sightings Map Here</p>
+  </div>
+  <hr>
 
-// Create the map object with options.
-let map = L.map("map-id", {
-  center: [40.73, -74.0059],
-  zoom: 12
-});
-}
+  <div class="w3-container w3-dark-grey w3-padding-15">
+    <div class="w3-row">
+      <div class="w3-container w3-third">
+        <h5> Sightings Over Time</h5>
+      </div>
+      <div class="w3-container w3-third">
+        <p>Insert Table from Python Here</p>
+      </div>
+    </div>
+  </div>
 
-
-function createMarkers(data) {
-
-let Lat = data.Lat
-let Lng = data.Lng
-
-// Initialize an array to hold bike markers.
-let sightingMarkers = [];
-
-// Loop through the stations array.
-for (let index = 0; index < data.length; index++) {
-  let sighting = data[index];
-
-  // For each station, create a marker, and bind a popup with the station's name.
-  let sightingMarker = L.marker([data.Lat, data.Lng])
-    .bindPopup("<h3>CITY:" + data.CITY + "<h3><h3>State: " + data.STATE + "</h3>");
-
-  // Add the marker to the bikeMarkers array.
-  sightingMarkers.push(sightingMarker);
-}
-
-// Create a layer group that's made from the bike markers array, and pass it to the createMap function.
-createMap(L.layerGroup(sightingMarkers));
-}
-
-d3.json(apiUrl).then(createMarkers);
-</script>
-
-</html>
+  <!-- End page content -->
+</div>
+</body>
