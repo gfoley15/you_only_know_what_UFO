@@ -1,49 +1,88 @@
-<head>
+<!DOCTYPE html>
+<html>
+  <head>
     <meta charset="utf-8">
     <title>Questions</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
-    <meta name="generator" content="Hugo 0.122.0">
-    <html lang="en" data-bs-theme="text-bg-dark"
-    
-</head>
-    <div>
-        <h1>Welcome to the world of the unexplained!</h1>
-        <h4> If you are interested in learning more about the research questions below, please click on the answer link.</h4>
-        <p>Is there a correlation with military bases and UFO sightings?</p>
-        <button type="button"><a href="/dashboard">Answer</a></button>
-      </div>
-    </div>
-    <div>
-        <p>Which coast has the most encounters?</p>
-        <button type="button"><a href="/dashboard">Answer</a></button>
-      </div>
-    </div>
-    <div>
-        <p>What type of UFO is the most common?</p>
-        <button type="button"><a href="/dashboard">Answer</a></button>
-      </div>
-    </div>
-    <div>
-        <p>Has there been an increase in UFO sightings since 2010?</p>
-        <button type="button"><a href="/dashboard">Answer</a></button>
-      </div>
-    </div>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-green.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  
+    <!-- Header -->
+    <header class="w3-container w3-theme w3-padding w3-center" id="myHeader">
+    <h4>DataViz Project 3</h4>
+    <h1 class="w3-xxxlarge w3-animate-bottom" class="w3-center" style.display='block'> Welcome to the world of the unexplained!</h1>
+    </header>
+  </head>
 
-<body class="container">
+
+   <!--Navigation Bar-->
+   <div class="w3-bar w3-black">
+    <a href="/" class="w3-bar-item w3-button w3-padding-16">Home</a>
     <div>
-        <p>Data sources used for this project can be found below:</p>
-        <ul>
-            <li><a href="https://nuforc.org/subndx/?id=all">UFO Sightings</a></li>
-            <li><a href="https://en.wikipedia.org/wiki/List_of_United_States_Air_Force_installations">Military Base Locations</a></li>
-            <li><a href="https://openweathermap.org/api/geocoding-api#direct_name">Coordinates</a></li>
-        </ul>
+    <a href="/sourcedata" class="w3-bar-item w3-button w3-padding-16">Airforce Base Data</a>
+    <a href="/sourcedata1" class="w3-bar-item w3-button w3-padding-16">USA Sightings Data</a>
     </div>
-    <div>
-        <p>All data was input into MongoDB and can be found using the link below:</p>
-        <a href="/sourcedata">Data from MongoDB</a></li>
+    <div class="w3-dropdown-hover">
+      <button class="w3-button w3-padding-16">
+        Sources <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+        <a href="https://nuforc.org/subndx/?id=all" class="w3-bar-item w3-button "> UFO Sightings</a>
+          <a href="https://en.wikipedia.org/wiki/List_of_United_States_Air_Force_installations" class="w3-bar-item w3-button">Military Base Locations</a>
+          <a href="https://openweathermap.org/api/geocoding-api#direct_name" class="w3-bar-item w3-button">Coordinates</a>
+      </div>
     </div>
-</body>
+  </div>
+  
+  <body>
+  
+    <hr>
+    <button onclick="myAccFunc('Demo1')" class="w3-padding-16 w3-grey w3-button w3-block w3-left-align">Research Question 1</button>
+    <div id="Demo1" class="w3-hide">
+      <div class="w3-container">
+      <p>Is there a correlation with military bases and UFO sightings?</p>
+      <p><button><a href="/dashboard">Answer</a></button></p>
+      </div>
+    </div>
+    <button onclick="myAccFunc('Demo2')" class="w3-padding-16 w3-grey w3-button w3-block w3-left-align">Research Question 2</button>
+    <div id="Demo2" class="w3-hide">
+      <div class="w3-container">
+      <p>Which coast has the most encounters?</p>
+      <p><button><a href="/dashboard">Answer</a></button></p>
+      </div>
+    </div>
+    <button onclick="myAccFunc('Demo3')" class="w3-padding-16 w3-grey w3-button w3-block w3-left-align">Research Question 3</button>
+    <div id="Demo3" class="w3-hide">
+      <div class="w3-container">
+      <p>What type of UFO is the most common?</p> 
+      <p><button><a href="/dashboard">Answer</a></button></p>
+      </div>
+    </div>
+    <button onclick="myAccFunc('Demo4')" class="w3-padding-16 w3-grey w3-button w3-block w3-left-align">Research Question 4</button>
+    <div id="Demo4" class="w3-hide">
+      <div class="w3-container">
+      <p>Has there been an increase in UFO sightings since 2010?</p>
+      <p><button><a href="/dashboard">Answer</a></button></p>
+      </div>
+    </div>
+  </body>
+
+  <script>
+    // Accordions
+    function myAccFunc(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+     x.className = x.className.replace(" w3-show", "");
+    }
+  }
+
+  </script>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="./static/js/app.js"></script>
 
 </html>

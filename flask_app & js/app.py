@@ -10,9 +10,10 @@ app = Flask(__name__)
 serverUrl = os.environ.get('MONGO', "mongodb://localhost:27017")
 client = pymongo.MongoClient(serverUrl)
 
-# connect to mongo db (classDB) and collection (classroom)
-db = client.classDB
-class_collection = db.classroom
+# connect to mongo db (nuforc) and collections (airforce_bases) & (usa_sightings)
+db = client.nuforc
+class_collection = db.airforce_bases
+class_collection1 = db.usa_sightings
 
 @app.route("/")
 def default():
@@ -29,6 +30,11 @@ def dashboard():
 @app.route("/sourcedata")
 def sourcedata():
     data = class_collection.find()
+    return json_util.dumps(data)
+
+@app.route("/sourcedata1")
+def sourcedata1():
+    data = class_collection1.find()
     return json_util.dumps(data)
 
 if __name__ == '__main__':
