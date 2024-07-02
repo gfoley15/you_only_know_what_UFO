@@ -1,6 +1,74 @@
 <!DOCTYPE html>
 <html>
-<head>
-<h1> let's put our interactive dashboard here</h1>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>UFO Dashboard</title>
+      
+        <!-- D3 library -->
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+      
+        <!-- Leaflet CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+        crossorigin=""/>
+      
+        <!-- Leaflet JavaScript code -->
+        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+        crossorigin=""></script>
+    
+      </head>
+      <body>
+      
+        <!-- The div that holds our map -->
+        <div id="map-id"></div>
+
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="./static/js/app.js"></script>
+
+<script>
+function createMap(sightings) {
+
+// Create the tile layer that will be the background of our map.
+let streetmap = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+});
+
+
+// Create the map object with options.
+let map = L.map("map-id", {
+  center: [40.73, -74.0059],
+  zoom: 12
+});
+}
+
+
+function createMarkers(data) {
+
+let Lat = data.Lat
+let Lng = data.Lng
+
+// Initialize an array to hold bike markers.
+let sightingMarkers = [];
+
+// Loop through the stations array.
+for (let index = 0; index < data.length; index++) {
+  let sighting = data[index];
+
+  // For each station, create a marker, and bind a popup with the station's name.
+  let sightingMarker = L.marker([data.Lat, data.Lng])
+    .bindPopup("<h3>CITY:" + data.CITY + "<h3><h3>State: " + data.STATE + "</h3>");
+
+  // Add the marker to the bikeMarkers array.
+  sightingMarkers.push(sightingMarker);
+}
+
+// Create a layer group that's made from the bike markers array, and pass it to the createMap function.
+createMap(L.layerGroup(sightingMarkers));
+}
+
+d3.json(apiUrl).then(createMarkers);
+</script>
+
 </html>
