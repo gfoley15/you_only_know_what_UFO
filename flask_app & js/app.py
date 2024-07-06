@@ -29,8 +29,8 @@ def dashboard():
 
 @app.route("/sourcedata")
 def sourcedata():
-    data = class_collection.find()
-    return json_util.dumps(data)
+    data = list(class_collection.find())
+    return jsonify(json.loads(json_util.dumps(data)))
 
 @app.route("/sourcedata1")
 def sightings():
