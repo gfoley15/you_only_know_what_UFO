@@ -44,26 +44,21 @@ var airforceIcon = L.icon({
     iconSize: [48, 32]
 })
 
-// Fetch the JSON data for all US Air Force Bases
-d3.json(url).then(data => {
-
-    // Loop through the data and add markers
-    data.forEach(item => {
-        var lat = item.latitude;
-        var lon = item.longitude;
-        
-        // Create tooltip content
-        var tooltipContent = `
-            <strong>Name:<strong> ${item.name}<br>
-            <strong>Unit:<strong> ${item.host_wing_or_primary_unit}<br>
-            <strong>City:<strong> ${item.location}<br>
-            <strong>State:<strong> ${item.state_or_area}<br>
-        `;
-
-        L.marker([lat, lon], {icon: airforceIcon}).addTo(myMap)
-            .bindTooltip(tooltipContent); // To add tooltip content
-    });
-})
+// Calculate the distance between two points using the Haversine formula
+// This formula is needed to dynamically plot the US Air Force bases 
+// within 'x' km from the UFO sighting
+function getDistance(lat1, lon1, lat2, lon2) {
+    const R = 6371; // Radius of the Earth in km
+    const dLat = (lat2 - lat1) * Math.PI / 180;
+    const dLon = (lon2 - lon1) * Math.PI / 180;
+    const a = 
+        Math.sin(dLat/2) * Math.sin(dLat/2) +
+        Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) * 
+        Math.sin(dLon/2) * Math.sin(dLon/2);
+    const c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    const d = R * c; // Distance in km
+    return d;
+}
 
 // Initialize the dashboard at start up
 function init() {
@@ -98,16 +93,19 @@ function init() {
 }
 
 function buildMap(data, selectedCity) {
-    
     // Clear existing markers
     markers.clearLayers();
+    myMap.eachLayer(function (layer) {
+        if (layer instanceof L.Marker) {
+            myMap.removeLayer(layer);
+        }
+    });
 
-    // Loop through the data and create markers
+    // Add UFO sighting markers
     data.forEach(item => {
         var lat = item.Lat;
         var lon = item.Lng;
         
-        // Create tooltip content
         var tooltipContent = `
             <strong>Date:</strong> ${item.OCCURRED_DATE}<br>
             <strong>Location:</strong> ${item.CITYSTATE}<br>
@@ -121,16 +119,35 @@ function buildMap(data, selectedCity) {
     // Add the marker cluster group to the map
     myMap.addLayer(markers);
 
+    // If a city is selected, add nearby Air Force bases
+    if (selectedCity && selectedCity !== "Select a city") {
+        let selectedCityData = data.find(item => item.CITY === selectedCity);
+        if (selectedCityData) {
+            const radius = 300; // km, adjust as needed
+
+            d3.json(url).then(airForceData => {
+                airForceData.forEach(base => {
+                    let distance = getDistance(selectedCityData.Lat, selectedCityData.Lng, base.latitude, base.longitude);
+                    if (distance <= radius) {
+                        var tooltipContent = `
+                            <strong>Name:</strong> ${base.name}<br>
+                            <strong>Unit:</strong> ${base.host_wing_or_primary_unit}<br>
+                            <strong>City:</strong> ${base.location}<br>
+                            <strong>State:</strong> ${base.state_or_area}<br>
+                        `;
+
+                        L.marker([base.latitude, base.longitude], {icon: airforceIcon})
+                            .addTo(myMap)
+                            .bindTooltip(tooltipContent);
+                    }
+                });
+            });
+        }
+    }
+
     // Fit the map to show all markers
     var group = L.featureGroup(markers.getLayers());
-    // myMap.fitBounds(group.getBounds());
-    if (selectedCity && selectedCity !== "Select a city") {
-        // If a city is selected, zoom in more
-        myMap.fitBounds(group.getBounds(), { maxZoom: 10 });
-    } else {
-        // If no city is selected, use a wider view
-        myMap.fitBounds(group.getBounds(), { maxZoom: 5 });
-    } 
+    myMap.fitBounds(group.getBounds());
 }
 
 function optionChanged(selectedCity) {
