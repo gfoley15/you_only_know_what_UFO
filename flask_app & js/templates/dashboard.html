@@ -33,36 +33,29 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", Verdana}
 </div>
 
 <!-- Sidebar/menu -->
-<nav class="w3-sidebar w3-collapse w3-light-grey" style="z-index:3;width:300px;" id="mySidebar"><br>
+<nav class="w3-sidebar w3-collapse w3-black" style="z-index:0;width:350px;" id="mySidebar"><br>
   <div class="w3-container w3-row">
-    <div class="w3-col s4">
+    <header class="w3-container w3-text-green" style="padding-left:40px">
+      <h2><b> UFO Dashboard</b></h2>
+    </header>
+    <hr>
+  </div>
+  <div class="w3-container">
+  </div>
+  <div class="w3-container" style="z-index:5;width:300px;padding-left: 40px">
+      <h5><b>Has there been an increase in UFO sightings since 2014?</b></h5>
+  </div>
+    <div id="sightings over time" style="z-index:5;width:150px;padding-top:-50px;padding-left:-60px">
     </div>
-  </div>
-  <div class="w3-container">
-    <h6>Search By City</h6>
-    <select id="City" onchange="optionChanged(this.value)"></select>
-      </div>
-      <br>
+  </div> 
   <hr>
-  <div class="w3-container">
-    <div class="card card-primary">
-      <div class="card-header">
-    <h6 class="card-title">Sighting Details</h6>
-    <p>x</p>
-  </div>
-  <div class="w3-bar-block">
-  </div>
 </nav>
 
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:300px;margin-top:43px;">
 
-  <!-- Header -->
-  <header class="w3-container w3-text-green" style="padding-top:22px">
-    <h2><b> UFO Dashboard</b></h2>
-  </header>
   <div class="w3-panel">
-    <div class="w3-row-padding" style="margin: 0">
+    <div class="w3-row-padding" style="margin:0;padding-top:43px;padding-left:43px">
         <div class="w3-half">
             <div class="chart-container">
                 <h5><strong>What type of UFO Shape is the most common?</strong></h5>
@@ -81,24 +74,12 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", Verdana}
     </div>
   </div>
 
-  <div class="w3-container" style="margin:0 16px">
-    <h5>Sightings Map</h5>
-    
+  <div class="w3-container" style="margin:0 16px;padding-left:50px">
+    <h5><strong>Is there a correlation between military bases and UFO sightings?</strong></h5>
     <!-- The div that holds our map -->
     <div id="map" style="height: 800px;"></div>
   </div>
-  <hr>
-
-  <div class="w3-container w3-dark-grey w3-padding-15">
-    <div class="w3-row">
-      <div class="w3-container w3-third">
-        <h5> Sightings Over Time</h5>
-      </div>
-      <div class="w3-container w3-third">
-        <p>Insert Table from Python Here</p>
-      </div>
-    </div>
-  </div>
+  <hr>  
 
   <!-- End page content -->
 </div>
@@ -108,6 +89,9 @@ html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", Verdana}
 
 <!-- Chart JavaScript -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Plotly JavaScript-->
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 <!-- Leaflet JavaScript -->
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"

@@ -207,5 +207,116 @@ function createBarCharts() {
     });
 }
 
-// Call the function to create the bar charts
+function createSightingsOverTimeChart() {
+    document.addEventListener('DOMContentLoaded', function() {
+        d3.json('/sourcedata1')
+            .then(data => {
+                let sightings = data.data.sightings;
+                
+                let YearCounts = {};
+
+                sightings.forEach(sighting => {
+                    // Count sightings by Year
+                    if (sighting.YEAR in YearCounts) {
+                        YearCounts[sighting.YEAR]++;
+                    } else {
+                        YearCounts[sighting.YEAR] = 1;
+                    }
+                });
+
+                // Convert YearCounts to an array of { year, count } objects
+                let YearData = Object.keys(YearCounts).map(year => ({ year, count: YearCounts[year] }));
+
+                // Sort YearData by count in descending order and take top 10
+                let YearData1 = YearData.slice(0, 11);
+
+                // Extract labels and data for sightings over time chart
+                let YearLabels = YearData1.map(item => item.year);
+                let YearCountsSorted = YearData1.map(item => item.count);
+                console.log(YearCountsSorted)
+
+                // Chart for sightings over time
+                let CountbyYear = d3.select('#sightings over time');
+                
+                let trace1 = {
+                    x: YearLabels,
+                    y: YearCountsSorted,
+                    mode: 'lines+markers',
+                    line: {
+                        color: 'limegreen',
+                        width: 2
+                      },
+                      marker: {
+                        color: 'limegreen',
+                        size: 12
+                    },
+                };
+                
+                let tracedata = [trace1];
+
+                let layout = {
+                        showlegend: false,
+                        height: 500,
+                        width: 350,
+                        plot_bgcolor:'black',
+                        paper_bgcolor:'black',
+                        xaxis: {
+                            title: {
+                                text:'Year',
+                                font:{
+                                    family: 'Verdana',
+                                    size: 8,
+                                    color: 'white'}},
+                          showline: true,
+                          showgrid: false,
+                          showticklabels: true,
+                          linecolor: 'rgb(204,204,204)',
+                          linewidth: 2,
+                          autotick: false,
+                          ticks: 'outside',
+                          tickcolor: 'rgb(204,204,204)',
+                          tickwidth: 2,
+                          ticklen: 5,
+                          tickfont: {
+                            family: 'Verdana',
+                            size: 10,
+                            color: 'white'
+                          }
+                        },
+                        yaxis: {
+                            showgrid: false,
+                          zeroline: false,
+                          showline: false,
+                          showticklabels: false
+                        },
+                        autosize: false,
+                        annotations: [
+                          {
+                            xref: 'paper',
+                            yref: 'paper',
+                            x: 0.0,
+                            y: 1.05,
+                            xanchor: 'left',
+                            yanchor: 'bottom',
+                            text: 'U.S. Sightings Over Time',
+                            font:{
+                              family: 'Verdana',
+                              size: 16,
+                              color: 'white'
+                            },
+                            showarrow: false
+                          },
+                        ]
+                    };
+
+
+                  Plotly.newPlot("sightings over time", tracedata,layout)
+                    },
+                  
+        );
+    })
+}
+
+// Call the function to create the bar charts and sightings over time chart
 createBarCharts();
+createSightingsOverTimeChart();
