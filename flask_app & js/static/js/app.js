@@ -31,7 +31,7 @@ function sampleData(data, sampleSize) {
 
 // To add custom UFO marker
 var ufoIcon = L.icon({
-    iconUrl: '../static/mattsufo.png',
+    iconUrl: '../static/mattsufo2.png',
     iconSize: [32, 32]
 })
 
@@ -69,7 +69,7 @@ d3.json(apiUrl).then(response => {
     const data = response.data.sightings;
 
     // Define sample size
-    var sampleSize = 1000;
+    var sampleSize = 3000;
 
     // Sample the data due to the large dataset
     var sampledData = sampleData(data, sampleSize);  // Adjust sample size as needed
