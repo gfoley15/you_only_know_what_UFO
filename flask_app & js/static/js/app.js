@@ -29,6 +29,9 @@ function sampleData(data, sampleSize) {
     return sampled;
 }
 
+// Declare global variable for sample data
+var globalSampledData;
+
 // To add custom UFO marker
 var ufoIcon = L.icon({
     iconUrl: '../static/mattsufo2.png',
@@ -62,40 +65,105 @@ d3.json(url).then(data => {
     });
 })
 
-// Fetch the JSON data all UFO sightings
-d3.json(apiUrl).then(response => {
-
-    // The data is nested under 'data.sightings'
-    const data = response.data.sightings;
+// Initialize the dashboard at start up
+function init() {
+    d3.json(apiUrl).then(response => {
+        const data = response.data.sightings;
 
     // Define sample size
-    var sampleSize = 3000;
+    var sampleSize = 1000;
 
     // Sample the data due to the large dataset
     var sampledData = sampleData(data, sampleSize);  // Adjust sample size as needed
 
-    // Loop through the data and add markers
-    sampledData.forEach(item => {
+    // Loop through the data and create markers
+    data.forEach(item => {
         var lat = item.Lat;
         var lon = item.Lng;
-
+        
         // Create tooltip content
         var tooltipContent = `
-            <strong>Date:<strong> ${item.OCCURRED_DATE}<br>
-            <strong>Location:<strong> ${item.CITYSTATE}<br>
-            <strong>Shape:<strong> ${item.SHAPE}<br>
-            <strong>Summary:<strong> ${item.SUMMARY}<br>
+            <strong>Date:</strong> ${item.OCCURRED_DATE}<br>
+            <strong>Location:</strong> ${item.CITYSTATE}<br>
+            <strong>Shape:</strong> ${item.SHAPE}<br>
         `;
             
         var marker = L.marker([lat, lon], {icon: ufoIcon}).bindTooltip(tooltipContent);
-        
-        // Add marker to cluster group
         markers.addLayer(marker);
     });
 
     // Add the marker cluster group to the map
     myMap.addLayer(markers);
-})
+
+    // Fit the map to show all markers
+    var group = L.featureGroup(markers.getLayers());
+    // myMap.fitBounds(group.getBounds());
+    if (selectedCity && selectedCity !== "Select a city") {
+        // If a city is selected, zoom in more
+        myMap.fitBounds(group.getBounds(), { maxZoom: 10 });
+    } else {
+        // If no city is selected, use a wider view
+        myMap.fitBounds(group.getBounds(), { maxZoom: 5 });
+    } 
+})}
+
+function optionChanged(selectedCity) {
+    d3.json(apiUrl).then(response => {
+        const data = response.data.sightings;
+        var sampleSize = 1000;
+        var sampledData = sampleData(data, sampleSize);
+
+        // Filter data for the selected city
+        let filteredData = selectedCity !== "Select a city" ? 
+            globalSampledData.filter(item => item.CITY === selectedCity) : 
+            globalSampledData;
+
+        // Update map
+        buildMap(filteredData, selectedCity);
+
+        // Update sighting details
+        updateSightingDetails(selectedCity, filteredData);
+    })
+}
+
+function updateSightingDetails(city, data) {
+    // Use d3 to select the panel with id of `#sighting-details`
+    let panel = d3.select("#sighting-details");
+    
+    // Use `.html("") to clear any existing metadata
+    panel.html("");
+
+    if (city !== "Select a city" && data.length > 0) {
+        // Get the first sighting for the selected city (assuming it's the most recent)
+        let sighting = data[0];
+
+        // Create an object with the metadata we want to display
+        let metadata = {
+            "Number of Sightings": data.length,
+            "City": city,
+            "State": sighting.STATE,
+            "Country": sighting.COUNTRY,
+            "Date": sighting.OCCURRED_DATE,
+            "Shape": sighting.SHAPE,
+            "Summary": sighting.SUMMARY
+        };
+
+        // Object.entries() to get key-value pairs
+        let entries = Object.entries(metadata);
+
+        // Inside a loop, use d3 to append new tags for each key-value in the metadata
+        entries.forEach(([key, value]) => {
+            // Append a h5 child element for each key-value pair
+            panel.append("h5").text(`${key}: ${value}`);
+        });
+
+        // Log the entries array
+        console.log(entries);
+    } else {
+        // If no city is selected or no data available
+        panel.append("h5").text("Select a city to see details");
+    }
+}
 
 function createBarCharts() {
     document.addEventListener('DOMContentLoaded', function() {
@@ -320,3 +388,6 @@ function createSightingsOverTimeChart() {
 // Call the function to create the bar charts and sightings over time chart
 createBarCharts();
 createSightingsOverTimeChart();
+
+// Call init() to initialize the dashboard
+init();

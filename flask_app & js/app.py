@@ -1,5 +1,5 @@
 from bson import json_util
-from flask import Flask, jsonify, render_template
+from flask import Flask, jsonify, render_template, Response
 import pymongo
 import os
 import json
@@ -30,7 +30,8 @@ def dashboard():
 @app.route("/sourcedata")
 def sourcedata():
     data = class_collection.find()
-    return json_util.dumps(data)
+    json_data = json_util.dumps(data, indent=2)
+    return Response(json_data, mimetype='application/json')
 
 @app.route("/sourcedata1")
 def sightings():

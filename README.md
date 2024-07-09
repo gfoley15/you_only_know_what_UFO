@@ -1,5 +1,5 @@
 
-# You Only Know What UFO -Team
+# You Only Know What UFO - Team Purple
 
 ** Project: Data Engineering and Visualization on UFO Sighting in USA and Relationship with Military Bases
 ## Introduction 
@@ -10,6 +10,7 @@ The project takes indepth view of data engineering, exploration, and visualizati
 - Project Inspiration
 - Data Sources
 - Data Flow
+- Project Setup and Execution
 - Technologies Used
 - Research Questions
 - Results
@@ -36,9 +37,33 @@ The project takes indepth view of data engineering, exploration, and visualizati
 Here is the project workflow from web scraping, flask app creation and javascript dashboard visualization.
 ![alt text](<UFO Workflow Diagram.png>)
 
+## Project Setup and Execution
+Ensure that you have access to the `Technologies Used` listed below.
+
+### Installation
+1. Clone the GitHub repository:
+- git clone https://github.com/gfoley15/you_only_know_what_UFO.git
+2. Navigate to the project directory on your local machine:
+- cd you_only_know_what_UFO
+
+### Database Setup
+3. Run the Jupyter notebook to create the MongoDB database and collections:
+- 03_Load_Sightings_AirForceBases.ipynb
+- Execute all cells in the notebook to complete the database setup
+
+### Running the Application
+4. Navigate to the "flask_app & js" directory:
+- cd "flask_app & js"
+5. Start the Flask application:
+- python app.js
+6. Open your web browser and visit:
+- http://localhost:5000
+
+You should now see the application running in your browser.
+
 ## Technologies Used:
 ### Applications: 
-Jupyter Notebook, Selenium ChromeDriver, OpenWeather API - GeoAPIfy, Flask, MongoDB (NoSQL), JavaScript ES6, HTML5
+- Jupyter Notebook, Selenium ChromeDriver, OpenWeather API - GeoAPIfy, Flask, MongoDB (NoSQL), JavaScript ES6, HTML5
 ### Python libraries: 
 - matplotlib.pyplot, pandas numpy, requests, warnings, time, hvplot, MongoClient, bs4 import BeautifulSoup, from splinter import Browser, from selenium import webdriver
 ### JavaScript libraries:
@@ -57,10 +82,11 @@ The findings from our research offer important implications for public understan
  - Light is the most common - are they airplanes or aliens? - followed by Circle and Triangle.
  - UFO sightings hav decrease since 2014. There was a slight increase in 2019 and 2020, but the general downtrend has remained consistent over the previous 10 year period.
  - According to the Top 10 States, California has the most recorded UFO sightings - 40% more than the next closest State, Florida. Due to California's significant amount of UFO sightings, plus 3 out of the Top 5 States in terms of sighting count (Arizona, Washington), the West Coast has more sightings.
- - In terms of correlation, the visual map can be left up to interpretation. However, there are generally many UFO sightings in cities that have or are close to Air Force Bases. There are also UFO sightings in between Air Force Bases (point A to point B) that can be seen on the map.
+ - There is a very weak correlation based on the Pearson correlation coefficient (r-value) of -0.01. This means that as dates increase (move forward in time), there's a very slight tendency for the distances to decrease, but the effect is negligible. With a correlation this close to zero, it's safe to say there's effectively no linear relationship between the date of UFO sightings and their distance to the nearest Air Force base.
+    ![UFO Sightings Scatter Plot (2014 to 2024)](Output/ufo_sightings_scatter_plot_2014_to_2024.png)<br>
 
 ## Conclusion
-In conclusion, our research sheds light on the complexity and mysterious nature of studying UFO and military information. From the data, we can say that there is a positive relationship between UFOs sighting and Air Force Bases in the USA.
+In conclusion, our research sheds light on the complexity and mysterious nature of studying UFO and military information. This result suggests that UFO sightings are not getting systematically closer to or farther from Air Force bases over time. The timing of UFO sightings appears to be independent of their proximity to Air Force bases.
 
 ## Sources
 Throughout building out the web scraping module and javascript, the following websites were used to assist with coding:
