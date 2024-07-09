@@ -105,7 +105,7 @@ function init() {
         // If no city is selected, use a wider view
         myMap.fitBounds(group.getBounds(), { maxZoom: 5 });
     } 
-}
+})}
 
 function optionChanged(selectedCity) {
     d3.json(apiUrl).then(response => {
