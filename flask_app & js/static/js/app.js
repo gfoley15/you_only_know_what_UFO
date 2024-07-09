@@ -34,7 +34,7 @@ var globalSampledData;
 
 // To add custom UFO marker
 var ufoIcon = L.icon({
-    iconUrl: '../static/mattsufo.png',
+    iconUrl: '../static/mattsufo2.png',
     iconSize: [32, 32]
 })
 
@@ -70,37 +70,11 @@ function init() {
     d3.json(apiUrl).then(response => {
         const data = response.data.sightings;
 
-        // Define sample size and sample the data
-        var sampleSize = 1000;
-        globalSampledData = sampleData(data, sampleSize);
+    // Define sample size
+    var sampleSize = 1000;
 
-        // Get unique cities
-        let cities = [...new Set(globalSampledData.map(item => item.CITY))].sort();
-
-        // Populate the dropdown menu
-        let dropdownMenu = d3.select("#City");
-        
-        // Add a default option
-        dropdownMenu.append("option")
-            .text("Select a city")
-            .property("value", "");
-
-        // Add cities to the dropdown menu
-        cities.forEach(city => {
-            dropdownMenu.append("option")
-                .text(city)
-                .property("value", city);
-        });
-
-        // Build the initial map
-        buildMap(sampledData);
-    })
-}
-
-function buildMap(data, selectedCity) {
-    
-    // Clear existing markers
-    markers.clearLayers();
+    // Sample the data due to the large dataset
+    var sampledData = sampleData(data, sampleSize);  // Adjust sample size as needed
 
     // Loop through the data and create markers
     data.forEach(item => {
@@ -301,8 +275,119 @@ function createBarCharts() {
     });
 }
 
-// Call the function to create the bar charts
+function createSightingsOverTimeChart() {
+    document.addEventListener('DOMContentLoaded', function() {
+        d3.json('/sourcedata1')
+            .then(data => {
+                let sightings = data.data.sightings;
+                
+                let YearCounts = {};
+
+                sightings.forEach(sighting => {
+                    // Count sightings by Year
+                    if (sighting.YEAR in YearCounts) {
+                        YearCounts[sighting.YEAR]++;
+                    } else {
+                        YearCounts[sighting.YEAR] = 1;
+                    }
+                });
+
+                // Convert YearCounts to an array of { year, count } objects
+                let YearData = Object.keys(YearCounts).map(year => ({ year, count: YearCounts[year] }));
+
+                // Sort YearData by count in descending order and take top 10
+                let YearData1 = YearData.slice(0, 11);
+
+                // Extract labels and data for sightings over time chart
+                let YearLabels = YearData1.map(item => item.year);
+                let YearCountsSorted = YearData1.map(item => item.count);
+                console.log(YearCountsSorted)
+
+                // Chart for sightings over time
+                let CountbyYear = d3.select('#sightings over time');
+                
+                let trace1 = {
+                    x: YearLabels,
+                    y: YearCountsSorted,
+                    mode: 'lines+markers',
+                    line: {
+                        color: 'limegreen',
+                        width: 2
+                      },
+                      marker: {
+                        color: 'limegreen',
+                        size: 12
+                    },
+                };
+                
+                let tracedata = [trace1];
+
+                let layout = {
+                        showlegend: false,
+                        height: 500,
+                        width: 350,
+                        plot_bgcolor:'black',
+                        paper_bgcolor:'black',
+                        xaxis: {
+                            title: {
+                                text:'Year',
+                                font:{
+                                    family: 'Verdana',
+                                    size: 8,
+                                    color: 'white'}},
+                          showline: true,
+                          showgrid: false,
+                          showticklabels: true,
+                          linecolor: 'rgb(204,204,204)',
+                          linewidth: 2,
+                          autotick: false,
+                          ticks: 'outside',
+                          tickcolor: 'rgb(204,204,204)',
+                          tickwidth: 2,
+                          ticklen: 5,
+                          tickfont: {
+                            family: 'Verdana',
+                            size: 10,
+                            color: 'white'
+                          }
+                        },
+                        yaxis: {
+                            showgrid: false,
+                          zeroline: false,
+                          showline: false,
+                          showticklabels: false
+                        },
+                        autosize: false,
+                        annotations: [
+                          {
+                            xref: 'paper',
+                            yref: 'paper',
+                            x: 0.0,
+                            y: 1.05,
+                            xanchor: 'left',
+                            yanchor: 'bottom',
+                            text: 'U.S. Sightings Over Time',
+                            font:{
+                              family: 'Verdana',
+                              size: 16,
+                              color: 'white'
+                            },
+                            showarrow: false
+                          },
+                        ]
+                    };
+
+
+                  Plotly.newPlot("sightings over time", tracedata,layout)
+                    },
+                  
+        );
+    })
+}
+
+// Call the function to create the bar charts and sightings over time chart
 createBarCharts();
+createSightingsOverTimeChart();
 
 // Call init() to initialize the dashboard
 init();
