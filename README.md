@@ -1,7 +1,6 @@
-
 # You Only Know What UFO - Team Purple
-
 ** Project: Data Engineering and Visualization on UFO Sighting in USA and Relationship with Military Bases
+
 ## Introduction 
 The project takes indepth view of data engineering, exploration, and visualization to finally deduce the story found in UFO data sets in USA. Our team goal is to understand the relationship between places of UFO sighting and locations of military bases. This is expected to answer some of the questions that have surround the mystery of UFOs.
 
@@ -38,26 +37,20 @@ Here is the project workflow from web scraping, flask app creation and javascrip
 ![alt text](<UFO Workflow Diagram.png>)
 
 ## Project Setup and Execution
-Ensure that you have access to the `Technologies Used` listed below.
+Ensure that you have access to the `Technologies Used` listed below in the next section.
 
 ### Installation
-1. Clone the GitHub repository:
-- git clone https://github.com/gfoley15/you_only_know_what_UFO.git
-2. Navigate to the project directory on your local machine:
-- cd you_only_know_what_UFO
+1. Clone the GitHub repository: `git clone https://github.com/gfoley15/you_only_know_what_UFO.git`
+2. Navigate to the project directory on your local machine: `cd you_only_know_what_UFO`
 
 ### Database Setup
-3. Run the Jupyter notebook to create the MongoDB database and collections:
-- 03_Load_Sightings_AirForceBases.ipynb
-- Execute all cells in the notebook to complete the database setup
+3. Run the Jupyter notebook to create the MongoDB database and collections: `03_Load_Sightings_AirForceBases.ipynb`
+4. Execute all cells in the notebook to complete the database setup
 
 ### Running the Application
-4. Navigate to the "flask_app & js" directory:
-- cd "flask_app & js"
-5. Start the Flask application:
-- python app.js
-6. Open your web browser and visit:
-- http://localhost:5000
+5. Navigate to the "flask_app & js" directory: `cd "flask_app & js"`
+6. Start the Flask application: `python app.js`
+7. Open your web browser and visit: `http://localhost:5000`
 
 You should now see the application running in your browser.
 
@@ -65,9 +58,9 @@ You should now see the application running in your browser.
 ### Applications: 
 - Jupyter Notebook, Selenium ChromeDriver, OpenWeather API - GeoAPIfy, Flask, MongoDB (NoSQL), JavaScript ES6, HTML5
 ### Python libraries: 
-- matplotlib.pyplot, pandas numpy, requests, warnings, time, hvplot, MongoClient, bs4 import BeautifulSoup, from splinter import Browser, from selenium import webdriver
+- matplotlib.pyplot, pandas numpy, requests, warnings, time, hvplot, MongoClient, BeautifulSoup, from splinter import Browser, from selenium import webdriver
 ### JavaScript libraries:
-- Leaflet.js, Plotly, D3.jsm, Chart.js 
+- D3.js, Chart.js, Plotly.js, Leaflet.js, Leaflet.MarkerCluster.js, App.js (Our JavaScript)
 ### Visualizations: 
 - UFO Sightings Across the U.S.A. - Whiteboard (canva.com)
 
