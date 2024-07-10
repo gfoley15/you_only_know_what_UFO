@@ -79,7 +79,7 @@ The findings from our research offer important implications for public understan
     ![UFO Sightings Scatter Plot (2014 to 2024)](Output/ufo_sightings_scatter_plot_2014_to_2024.png)<br>
 
 ## Conclusion
-In conclusion, our research sheds light on the complexity and mysterious nature of studying UFO and military information. This result suggests that UFO sightings are not getting systematically closer to or farther from Air Force bases over time. The timing of UFO sightings appears to be independent of their proximity to Air Force bases.
+In conclusion, our research sheds light on the complexity and mysterious nature of studying UFO and military information. This result suggests that UFO sightings are not getting systematically closer to or farther from Air Force bases over time. The timing of UFO sightings appears to be independent of their proximity to Air Force bases. Perhaps research can be expanded to look into other areas includes increased data volume, all military bases instead of air force bases only as well as looking global UFO sightings.
 
 ## Sources
 Throughout building out the web scraping module and javascript, the following websites were used to assist with coding:
